@@ -1,0 +1,55 @@
+#!/usr/bin/env bash
+#
+# update dotbare to latest master
+
+set -f
+
+mydir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+function usage() {
+  echo -e "Usage: dotbare fupgrade [-h] ...
+
+Upgrade dotbare to the latest master.
+
+Optional arguments:
+  -h, --help\t\tshow this help message and exit."
+}
+
+while [[ "$#" -gt 0 ]]; do
+  case "$1" in
+    -h|--help)
+      usage
+      exit 0
+      ;;
+    *)
+      echo "Invalid option: $1" >&2
+      usage
+      exit 1
+      ;;
+  esac
+done
+
+# rip from omz
+# auto stash on rebase
+resetAutoStash=$(git config --bool rebase.autoStash 2>&1)
+git config rebase.autoStash true
+
+# change directory to dotbare folder
+cd "${mydir}/.." || exit
+
+echo "Updating dotbare ..."
+if git pull --rebase --stat origin master; then
+  echo "dotbare updated successfully"
+else
+  echo "Something went wrong, please try again or fire up an issue at https://github.com/kazhala/dotbare"
+fi
+
+# reset autostack to original value
+case "$resetAutoStash" in
+  "")
+    git config --unset rebase.autoStash
+    ;;
+  *)
+    git config rebase.autoStash "${resetAutoStash}"
+    ;;
+esac

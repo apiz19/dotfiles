@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#
+# This script is for mocking tree during unit test,
+# just that we don't need install tree during different
+# test environment.
+#
+# usage:
+#   export PATH="${BATS_TEST_DIRNAME}:$PATH"
+
+echo "$@"

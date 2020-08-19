@@ -1,0 +1,107 @@
+#!/usr/bin/env bash
+#
+# backup all tracked files
+#
+# @params
+# Globals
+#   ${mydir}: current dir of the script
+#   ${backup_type}: types of backup, individual or all
+#   ${selected_files}: selected files to backup
+#   ${action_command}: actions to run, cp|mv
+# Arguments
+#   -h|--help: show help message and exit
+#   -s|--select: select individual files through fzf and backup
+#   -p PATH|--path PATH: pass in path and backup
+#   -m|--move: use mv to backup instead of cp
+
+set -e
+set -f
+
+mydir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+source "${mydir}"/../helper/set_variable.sh
+source "${mydir}"/../helper/git_query.sh
+
+function usage() {
+  echo -e "Usage: dotbare fbackup [-h] [-m] [-s] [-p PATH] ...
+
+Backup files to ${DOTBARE_BACKUP}.
+This is useful when untracking files or migrating to new machines.
+
+Default: backup all tracked files using cp command to ${DOTBARE_BACKUP} directory.
+
+optional arguments:
+  -h, --help\t\tshow this help message and exit.
+  -s, --select\t\tlist all tracked files and only backup the selected files.
+  -p PATH, --path PATH\tsepcify path of files to backup.
+  -m, --move\t\tuse 'mv' instead of the default 'cp' command to backup."
+}
+
+#######################################
+# backup passed in files while preserving directory info
+# Arguments:
+#   $1: files to backup, seperate by \n
+#   $2: action command (cp|mv)
+#######################################
+function dotbare_backup() {
+  local selected_files="$1"
+  local action_command="${2:-cp}"
+  while IFS= read -r line; do
+    dir_name=$(dirname "${line}")
+    [[ ! -d "${DOTBARE_BACKUP}/${dir_name}" ]] && mkdir -p "${DOTBARE_BACKUP}/${dir_name}"
+    [[ "${action_command}" == "cp" ]] \
+      && cp -av "${line}" "${DOTBARE_BACKUP}/${line}" \
+      && continue
+    # Purposly didn't use the -v flag because in finit, error message were
+    # directed to /dev/null but the cp/mv info will still be printed, causing confusion.
+    [[ "${action_command}" == "mv" ]] \
+      && mv "${line}" "${DOTBARE_BACKUP}/${line}" \
+      && echo "${line} -> ${DOTBARE_BACKUP}/${line}"
+  done <<< "${selected_files}"
+  exit 0
+}
+
+backup_type="all"
+action_command='cp'
+selected_files=""
+
+while [[ "$#" -gt 0 ]]; do
+  case "$1" in
+    -s|--select)
+      backup_type="select"
+      shift
+      ;;
+    -p|--path)
+      [[ -z "$2" ]] && echo "Invalid option: $1" >&2 && usage && exit 1
+      selected_files="$2"
+      shift
+      shift
+      ;;
+    -m|--move)
+      action_command="mv"
+      shift
+      ;;
+    -h|--help)
+      usage
+      exit 0
+      ;;
+    *)
+      echo "Invalid option: $1" >&2
+      usage
+      exit 1
+      ;;
+  esac
+done
+
+
+[[ -n "${selected_files}" ]] && dotbare_backup "${selected_files}" "${action_command}"
+
+cd "${DOTBARE_TREE}"
+if [[ "${backup_type}" == 'select' ]]; then
+  selected_files=$(get_git_file "select files to backup" "raw")
+else
+  selected_files=$(git --git-dir="${DOTBARE_DIR}" --work-tree="${DOTBARE_TREE}" \
+    ls-files --full-name --directory "${DOTBARE_TREE}")
+fi
+
+[[ -z "${selected_files}" ]] && exit 1
+dotbare_backup "${selected_files}" "${action_command}"

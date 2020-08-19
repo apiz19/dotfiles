@@ -1,0 +1,105 @@
+#!/usr/bin/env bash
+#
+# Main entry script for dotbare, used to route command to appropriate scripts
+#
+# @params
+# Globals
+#   ${mydir}: string, directory of the executing script, used for sourcing helpers
+# Arguments
+#   action_command: sub commands dotbare should run
+#     General git command: log, status etc
+#     dotbare specific commands: fadd | frm | fpop | freset | fcheckout | help etc
+#   option flags:
+#     check sub commands for available option flags
+
+mydir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+source "${mydir}"/helper/set_variable.sh
+
+function usage() {
+  echo -e "Usage: dotbare [-h] [-v] [COMMANDS] [OPTIONS] ...
+
+Interactively manage dotfiles with the help of fzf and git bare repository.
+To see all dotbare specific COMMANDS, run dotbare without any arguments.
+
+Optional arguments:
+  -h, --help\t\tshow this help message and exit.
+  -v, --version\t\tshow dotbare current version.
+  -g, --git\t\tuse dotbare as a generic fuzzy git tool and operate in current git directory.
+
+Available commands:
+  All git commands are available, treat dotbare as git.
+  fadd      \t\tstage files/directories interactively.
+  fbackup   \t\tperform backup for tracked files.
+  fcheckout \t\tcheckout branch/files/commit interactively.
+  fedit     \t\tinteractively select files/commit and edit.
+  fgrep     \t\tgrep within tracked files.
+  finit     \t\tinitialise dotbare or migrate dotfiles to a new machine.
+  flog      \t\tmanage commits interactively.
+  freset    \t\treset(unstage) files or commit interactively.
+  fstash    \t\tmanage stash interactively.
+  fstat     \t\tinteractive menu to toggle stage/unstage.
+  funtrack  \t\tuntrack files interactively.
+  fupgrade  \t\tupdate dotbare to the latest master."
+}
+
+function list_dotbare_commands() {
+  find "${mydir}"/scripts/* -type f -exec basename {} + \
+    | fzf --no-multi --header='Available commands' --preview="${mydir}/dotbare {} -h" \
+    | xargs -I __ "${mydir}"/dotbare __ -h
+}
+
+function execute_dotbare() {
+  [[ "$#" -eq 0 ]] \
+    && list_dotbare_commands \
+    && exit 0
+
+  if [[ -x "${mydir}/scripts/$1" ]]; then
+    exec "${mydir}/scripts/$1" "${@:2}"
+  fi
+}
+
+# if no argument, display all possible actions
+if [[ "$#" -eq 0 ]]; then
+  list_dotbare_commands
+  exit 0
+fi
+
+[[ "$*" == 'add --all' ]] && \
+  echo 'If you intend to stage all modified file, run dotbare add -u' && \
+  echo "dotbare disabled add --all option as this will stage every single file in ${DOTBARE_TREE}" && \
+  exit 1
+
+case "$1" in
+  --help|-h)
+    usage
+    exit 0
+    ;;
+  -v|--version)
+    echo "Current dotbare version: ${DOTBARE_VERSION}"
+    exit 0
+    ;;
+  -g|--git)
+    if git rev-parse --is-inside-work-tree &>/dev/null; then
+      DOTBARE_TREE=$(git rev-parse --show-toplevel)
+      DOTBARE_DIR="${DOTBARE_TREE}/.git"
+      shift
+      case "$1" in
+        fbackup|finit|fupgrade)
+          echo "dotbare $1 is not supported when using dotbare as a generic fuzzy git tool"
+          exit 1
+          ;;
+        *)
+          execute_dotbare "$@"
+          ;;
+      esac
+    else
+      echo "Not in a git directory"
+      exit 1
+    fi
+    ;;
+  *)
+    execute_dotbare "$@"
+    ;;
+esac
+
+git --git-dir="${DOTBARE_DIR}" --work-tree="${DOTBARE_TREE}" "$@"

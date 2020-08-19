@@ -1,0 +1,1189 @@
+: 1597719063:0;echo $MOZILLA_DIR
+: 1597719063:0;echo $MOZILLA_DIR
+: 1597719063:0;echo $GIT_CONFIG
+: 1597719063:0;echo $GOPATH
+: 1597719063:0;source .profile
+: 1597719063:0;source .zprofile
+: 1597719063:0;echo $GIT_CONFIG
+: 1597719063:0;echo $MOZILLA_DIR
+: 1597719063:0;cd $MOZILLA_DIR
+: 1597719063:0;ls
+: 1597719063:0;..
+: 1597719063:0;ls
+: 1597719063:0;la
+: 1597719063:0;ls -a
+: 1597719063:0;cp $MOZILLA_DIR $HOME
+: 1597719063:0;cp -r $MOZILLA_DIR $HOME
+: 1597719063:0;cd $MOZILLA_DIR
+: 1597719063:0;ls
+: 1597719063:0;pwd
+: 1597719063:0;mv .gimp-2.8 $XDG_CONFIG_HOME/gimp-2.8
+: 1597719063:0;mv .makepkg.conf $XDG_CONFIG_HOME/.makepkg.conf
+: 1597719063:0;mv .config__bak .local__bak bak__.i3 bak_.dmenurc dots/bak
+: 1597719063:0;echo $XDG_DATA_DIRS
+: 1597719063:0;mv .thumbnails $XDG_DATA_HOME/.thumbnails
+: 1597719063:0;mv .mozilla $XDG_DATA_HOME/mozilla
+: 1597719063:0;source .profile
+: 1597719063:0;source .profile
+: 1597719063:0;mv $XDG_DATA_HOME/mozilla $XDG_DATA_HOME/.mozilla
+: 1597719063:0;source .zprofile
+: 1597719063:0;echo $THUMBNAILS_DIR
+: 1597719063:0;source .zprofile
+: 1597719063:0;mv .config $ICONS_DIR
+: 1597719063:0;cd $ICONS_DIR
+: 1597719063:0;ls
+: 1597719063:0;ls
+: 1597719063:0;..
+: 1597719063:0;ls
+: 1597719063:0;~
+: 1597719063:0;mv -r .icons $XDG_DATA_HOME/.icons
+: 1597719063:0;mv .icons $XDG_DATA_HOME/.icons
+: 1597719063:0;ls $XDG_DATA_HOME
+: 1597719063:0;pwd
+: 1597719063:0;mv $XDG_DATA_HOME/.icons/* .config
+: 1597689816:0;cd .config/zsh/
+: 1597689826:0;vim .zshrc
+: 1597689935:0;source .zshrc
+: 1597689940:0;git status
+: 1597689988:0;ls
+: 1597689989:0;la
+: 1597690018:0;ls .git/config
+: 1597690024:0;bat .git/config
+: 1597690086:0;vim .git/config
+: 1597690110:0;git status
+: 1597690134:0;../zsh_bak
+: 1597690136:0;ls
+: 1597690140:0;cd ohmyzsh
+: 1597690141:0;ls
+: 1597690143:0;la
+: 1597690193:0;cp tools/install.sh ../../zsh/tools
+: 1597690198:0;git status
+: 1597690234:0;git diff tools/install.sh
+: 1597690257:0;..
+: 1597690265:0;cd zsh/
+: 1597690270:0;git status
+: 1597690303:0;git add .zshrc .zcompdump-kopishitam-5.8
+: 1597690313:0;git status 
+: 1597690422:0;git -am "add (.zshrc, modified tools/install.sh to $ZDOTDIR)"
+: 1597690437:0;git commit -am "add (.zshrc, modified tools/install.sh to $ZDOTDIR)"
+: 1597690484:0;git config --global user.email "hafiz.chairy@yahoo.com"
+: 1597690504:0;git config --global user.name "apiz19"
+: 1597690510:0;la
+: 1597690529:0;bat .gitconfig
+: 1597690556:0;mv .config/.gitconfig ~
+: 1597690564:0;bat .gitconfig
+: 1597690595:0;vim .zprofile
+: 1597690622:0;source .zprofile
+: 1597690631:0;git status 
+: 1597690644:0;git commit -am "add (.zshrc, modified tools/install.sh to $ZDOTDIR)"
+: 1597690773:0;pacrep tldp-howtos-txt
+: 1597690816:0;pacin fzf tldr tldp-howtos-txt fd 
+: 1597690880:0;git status 
+: 1597691281:0;tldr curl
+: 1597691296:0;cd Downloads
+: 1597691331:0;vim .zprofile
+: 1597691357:0;source .zprofile
+: 1597691388:0;vim .config/i3/config
+: 1597691419:0;source .zprofile
+: 1597691423:0;vim .zprofile
+: 1597691436:0;termite
+: 1597691488:0;curl -o https://www.getdnote.com/install dnote
+: 1597691507:0;curl https://www.getdnote.com/install -o dnote
+: 1597691510:0;ls
+: 1597691516:0;vim dnote
+: 1597691574:0;sh dnote
+: 1597691625:0;vim .config/nvim/init.vim
+: 1597691657:0;nvim
+: 1597691681:0;ranger
+: 1597691766:0;magit
+: 1597691802:0;cd .config/zsh_bak
+: 1597691803:0;ls
+: 1597691805:0;la
+: 1597691834:0;nvim .zshrc
+: 1597692143:0;pwd
+: 1597692156:0;cd .config/zsh/
+: 1597692162:0;nvim .zshrc
+: 1597692234:0;source .zshrc
+: 1597692239:0;git status
+: 1597692246:0;D
+: 1597692247:0;ls
+: 1597692255:0;d
+: 1597692256:0;ls
+: 1597692272:0;pwd
+: 1597692277:0;cd
+: 1597692279:0;cf
+: 1597692306:0;cdz
+: 1597692308:0;cfz
+: 1597692319:0;cd zsh/
+: 1597692335:0;git status
+: 1597692346:0;bat .zcompdump-kopishitam-5.8
+: 1597692359:0;l
+: 1597692410:0;echo '.zcompdump-kopishitam-5.8' > .gitignore
+: 1597692417:0;ls .gitignore
+: 1597692421:0;bat .gitignore
+: 1597692438:0;git add .gitignore
+: 1597692443:0;gs
+: 1597692452:0;git status
+: 1597692460:0;gst
+: 1597692532:0;ls
+: 1597692542:0;gf
+: 1597692573:0;git status
+: 1597692614:0;git diff cache/.zsh-update
+: 1597692620:0;ls
+: 1597692631:0;bat cache/grep-alias 
+: 1597692669:0;git add .
+: 1597692866:0;git submodule add https://github.com/kazhala/dotbare.git custom/plugin/dotbare
+: 1597692884:0;ls
+: 1597692897:0;git add .
+: 1597692902:0;gst
+: 1597714150:0;cd /run/media/apiz19/
+: 1597714153:0;ls
+: 1597714156:0;cd Documents
+: 1597714159:0;ls
+: 1597714166:0;fd -h
+: 1597714184:0;fd -e jpg
+: 1597714196:0;fd pdf
+: 1597714208:0;man fd
+: 1597714436:0;pacin diff-so-fancy
+: 1597714447:0;ls
+: 1597714447:0;la
+: 1597714479:0;source $ZDOTDIR/.zshrc
+: 1597714506:0;cf
+: 1597714511:0;vim aliasrc
+: 1597714694:0;..
+: 1597714706:0;vim .gitconfig
+: 1597714731:0;git config --global alias.dsf '!f() { [ -z "$GIT_PREFIX" ] || cd "$GIT_PREFIX" '\\
+'&& git diff --color "$@" | diff-so-fancy  | less --tabs=4 -RFXS; }; f'
+: 1597714732:0;vim .gitconfig
+: 1597714874:0;git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
+: 1597714904:0;git config --global color.diff-highlight.oldNormal    "red bold"
+: 1597714917:0;git config --global color.diff-highlight.newNormal    "green bold"
+: 1597714928:0;git config --global color.diff-highlight.newHighlight "green bold 22"
+: 1597714938:0;git config --global color.diff.meta       "11"
+: 1597714943:0;git config --global color.diff.frag       "magenta bold"
+: 1597714947:0;git config --global color.diff.commit     "yellow bold"
+: 1597714953:0;git config --global color.diff.old        "red bold"
+: 1597714958:0;git config --global color.diff.new        "green bold"
+: 1597714963:0;git config --global color.diff.whitespace "red reverse"
+: 1597714986:0;vim .g
+: 1597714994:0;vim .gitconfig
+: 1597715142:0;vim .config/aliasrc
+: 1597715190:0;$ZDOTDIR
+: 1597715191:0;ls
+: 1597715219:0;vim .zshrc
+: 1597715231:0;vim .config/zsh_bak
+: 1597715291:0;vim dots/
+: 1597715364:0;magit
+: 1597715385:0;ef
+: 1597715387:0;ref
+: 1597715412:0;weath
+: 1597715587:0;ranger
+: 1597715708:0;pwd
+: 1597715710:0;cf
+: 1597715720:0;ls -a
+: 1597715739:0;vim zshnameddirrc
+: 1597715769:0;vim shortcutrc
+: 1597715979:0;source .zprofile
+: 1597716016:0;cfz
+: 1597716109:0;ls
+: 1597717691:0;vim aliasrc
+: 1597717765:0;bat shortcutrc
+: 1597717780:0;bat zshr
+: 1597717785:0;bat zshnameddirrc
+: 1597717792:0;bat zshr
+: 1597717797:0;bat shortcutrc
+: 1597717824:0;vim functionrc
+: 1597717849:0;pwd
+: 1597717853:0;cf
+: 1597717864:0;bat shortcutrc
+: 1597717925:0;ls -l
+: 1597717973:0;vim zsh/.zshrc
+: 1597718006:0;vim aliasrc
+: 1597718061:0;vim functionrc
+: 1597718137:0;source zsh/.zshrc
+: 1597718171:0;vim functionrc
+: 1597718199:0;cfz
+: 1597718283:0;fzf -h
+: 1597718474:0;cf
+: 1597718491:0;vim nvim/init.vim
+: 1597718755:0;f
+: 1597718759:0;cf
+: 1597718767:0;cd nvim
+: 1597718767:0;ls
+: 1597718774:0;ls -a plugged
+: 1597718781:0;cd autoload
+: 1597718782:0;ls
+: 1597718784:0;la
+: 1597718787:0;vim plug.vim
+: 1597718926:0;whereis fzf
+: 1597718955:0;cfz
+: 1597718970:0;cf
+: 1597718987:0;vim aliasrc
+: 1597719020:0;cfz
+: 1597719063:0;reshell
+: 1597719105:0;whereis fzf
+: 1597719234:0;cfn
+: 1597719300:0;cf
+: 1597719320:0;cd nvim
+: 1597719321:0;ls
+: 1597719564:0;cf
+: 1597719586:0;mv zsh_bak ~/dots/
+: 1597719594:0;cd
+: 1597719611:0;mv dots dots_old
+: 1597719653:0;ranger
+: 1597720045:0;cd dots_old
+: 1597720046:0;ls
+: 1597720047:0;la
+: 1597720062:0;mv .* bak_manjaro_i3
+: 1597720095:0;vimtutor
+: 1597720110:0;vimwiki
+: 1597720111:0;ls
+: 1597720113:0;.
+: 1597720115:0;la
+: 1597720116:0;ll
+: 1597720118:0;..
+: 1597720120:0;ls
+: 1597720170:0;cd dots_old
+: 1597720171:0;ls
+: 1597720173:0;cd shit
+: 1597720173:0;ls
+: 1597720180:0;cd .config
+: 1597720181:0;ls
+: 1597720286:0;bat .zprofile
+: 1597720313:0;cp zathura/zathurarc $XDG_CONFIG_HOME/zathura/
+: 1597720432:0;cp dunst/dunstrc $XDG_CONFIG_HOME/dunst/
+: 1597720520:0;bat /etc/xdg/termite/config
+: 1597720553:0;vim /etc/xdg/termite/config
+: 1597720631:0;cp -p /etc/xdg/termite/* $XDG_CONFIG_HOME
+: 1597720679:0;mkdir $XDG_CONFIG_HOME/termite; mv $XDG_CONFIG_HOME/config $XDG_CONFIG_HOME/termite
+: 1597720688:0;ls $XDG_CONFIG_HOME
+: 1597720714:0;bat /etc/X11/xinit/xinitrc
+: 1597720735:0;bat /etc/X11/xorg.conf.d/00-keyboard.conf
+: 1597720741:0;bat /etc/X11/xorg.conf.d/30-touchpad.conf
+: 1597720788:0;sudo cp 90-touchpad.conf /etc/X11/xorg.conf.d/30-touchpad.conf
+: 1597720826:0;cp redshift.conf $XDG_CONFIG_HOME
+: 1597720852:0;pacin redshift
+: 1597720879:0;pacin libinput-gestures
+: 1597720915:0;sudo gpasswd -a $USER input
+: 1597720936:0;cp libinput-gestures.conf $XDG_CONFIG_HOME
+: 1597720945:0;reshell
+: 1597720973:0;libinput-gestures-setup autostart
+: 1597720990:0;ls $XDG_CONFIG_HOME/autostart
+: 1597720998:0;bat $XDG_CONFIG_HOME/autostart
+: 1597721001:0;bat $XDG_CONFIG_HOME/autostart/libinput-gestures.desktop
+: 1597721116:0;cd dots_old
+: 1597721117:0;;s
+: 1597721118:0;ls
+: 1597721123:0;cd shit
+: 1597721124:0;ls
+: 1597721138:0;la
+: 1597721194:0;ls
+: 1597721194:0;s
+: 1597721197:0;..
+: 1597721198:0;ls
+: 1597721200:0;la
+: 1597721224:0;cp .dnote $XDG_CONFIG_HOME/.dnote
+: 1597721233:0;cp -r .dnote $XDG_CONFIG_HOME/.dnote
+: 1597721260:0;reshell
+: 1597721271:0;dnote v
+: 1597721281:0;dnote view
+: 1597721359:0;mv $XDG_CONFIG_HOME/.dnote $HOME
+: 1597723250:0;rm -rf .dnote
+: 1597723303:0;vim .zprofile
+: 1597723385:0;cp .dnote ~/
+: 1597723391:0;cp -r .dnote ~/
+: 1597723396:0;reshell
+: 1597723438:0;dnote view
+: 1597723571:0;dnote ls
+: 1597723576:0;dnote v 1
+: 1597723589:0;dnote v 2
+: 1597724010:0;vim 
+: 1597724029:0;vim
+: 1597724065:0;ranger
+: 1597724143:0;vim dots_old/shit/.config/i3/config
+: 1597724446:0;vim .config/i3/config
+: 1597724467:0;vim dots_old/bak_manjaro_i3/bak__.i3/config
+: 1597725750:0;cfi
+: 1597729055:0;man termi
+: 1597729059:0;man termite
+: 1597729173:0;man termite.config
+: 1597729200:0;termite -t 'fzf-menu'
+: 1597731243:0;i3-dmenu-desktop -h
+: 1597731399:0;man i3-dmenu-desktop
+: 1597731460:0;ranger
+: 1597731628:0;man dmenu
+: 1597731855:0;i3-dmenu-desktop -h
+: 1597733015:0;i3-msg exec --no-startup-id dmenu_recency
+: 1597733020:0;i3-msg exec dmenu_recency
+: 1597733049:0;i3-msg exec morc_menu
+: 1597733323:0;bmenu
+: 1597733585:0;tldr xdtool
+: 1597734325:0;pacreps bmenu
+: 1597734348:0;pacrep bmenu
+: 1597735691:0;cfi
+: 1597738612:0;bat Documents/notes/linux 
+: 1597738994:0;libinput-gestures -h
+: 1597739006:0;libinput-gestures -l
+: 1597739025:0;libinput-gestures-setup -h
+: 1597739039:0;libinput-gestures-setup status
+: 1597739057:0;libinput-gestures-setup start
+: 1597739060:0;libinput-gestures-setup status
+: 1597739673:0;pacin py3status
+: 1597739751:0;cfi
+: 1597739791:0;vim .zprofile
+: 1597739797:0;ls
+: 1597739802:0;cf
+: 1597739816:0;ls i3
+: 1597739921:0;whereis i3status
+: 1597739955:0;cp /etc/i3status.conf $XDG_CONFIG_HOME/i3/config
+: 1597739982:0;cp /etc/i3status.conf $XDG_CONFIG_HOME/i3/i3status/
+: 1597740007:0;mkdir -p i3/i3status
+: 1597740009:0;cp /etc/i3status.conf $XDG_CONFIG_HOME/i3/i3status/
+: 1597740024:0;ls i3/i3status/
+: 1597740032:0;vim i3/i3status/
+: 1597740071:0;py3-cmd list -all
+: 1597740082:0;py3-cmd list --all
+: 1597740099:0;py3-cmd list
+: 1597740124:0;py3-cmd list archlinux
+: 1597740138:0;py3-cmd list arch_update
+: 1597740146:0;ls
+: 1597740206:0;man py3status
+: 1597740213:0;py3status -h
+: 1597740277:0;vim .xinitrc
+: 1597740299:0;source .xinitrc
+: 1597740321:0;cfi
+: 1597740792:0;cf
+: 1597740799:0;vim i3/i3status/i3status.conf
+: 1597740998:0;man time
+: 1597741332:0;cfi
+: 1597741459:0;vim dots_old/shit/.config/i3/config
+: 1597741578:0;vim dots_old/bak_manjaro_i3/bak__.i3/config 
+: 1597742020:0;git clone https://github.com/adi1090x/polybar-themes.git polythemes
+: 1597742357:0;cd polythemes
+: 1597742357:0;l
+: 1597742367:0;cd polybar-1
+: 1597742375:0;../polybar-12
+: 1597742376:0;ls
+: 1597742385:0;./tester.sh
+: 1597742397:0;bat tester.sh
+: 1597742423:0;vim tester.sh
+: 1597742467:0;ls wallpapers/bg_1
+: 1597742472:0;sxiv wallpapers/bg_1
+: 1597742485:0;sxiv wallpapers/bg_1.jpg
+: 1597742495:0;sxiv wallpapers/bg_2.jpg
+: 1597742525:0;ls
+: 1597742543:0;ranger
+: 1597742592:0;pwd
+: 1597742671:0;cd polythemes/polybar-12
+: 1597742672:0;ls
+: 1597742718:0;cp -r fonts/* ~/.local/share/fonts
+: 1597742731:0;ls ~/.local/share/fonts
+: 1597742763:0;reshell
+: 1597742765:0;ls ~/.local/share/fonts
+: 1597742772:0;cd ~/.local/share/fonts
+: 1597742790:0;rm ~/.local/share/fonts
+: 1597742814:0;cp -r fonts ~/.local/share/
+: 1597742843:0;fc-cache -v
+: 1597742939:0;cp * $XDG_CONFIG_HOME/polybar
+: 1597742953:0;cd $XDG_CONFIG_HOME/polybar
+: 1597742955:0;ls
+: 1597742958:0;la
+: 1597742968:0;ranger
+: 1597743060:0;ka polybar
+: 1597743066:0;cf
+: 1597743069:0;cd polybar
+: 1597743082:0;cd polythemes/polybar-12
+: 1597743083:0;l
+: 1597743114:0;cp -r scripts $XDG_CONFIG_HOME/polybar
+: 1597743132:0;ls
+: 1597743135:0;./tester.sh
+: 1597743178:0;ka polybar
+: 1597743189:0;ls
+: 1597743212:0;bat tester.ini
+: 1597743274:0;bat launch.sh
+: 1597743289:0;polybar main -c config
+: 1597743299:0;polybar -c config &
+: 1597743325:0;polybar -c $XDG_CONFIG_HOME/polybar/config &
+: 1597743345:0;ls
+: 1597743350:0;bat config
+: 1597743412:0;mv config bak_config
+: 1597743417:0;vim config.ini
+: 1597743585:0;yarep fontpreview-git
+: 1597743599:0;yain fontpreview-git
+: 1597743631:0;reshell
+: 1597743634:0;fontpreview
+: 1597743673:0;pacrep scientifica
+: 1597743679:0;yarep scientifica
+: 1597743885:0;cd /tmp
+: 1597743886:0;l
+: 1597743887:0;ls
+: 1597743914:0;cd scientifica
+: 1597743915:0;ls
+: 1597743955:0;cp ttf/* ~/.local/share/fonts
+: 1597744056:0;pacin the_silver_searcher
+: 1597744100:0;fc-list|ag scientifica
+: 1597744116:0;cf
+: 1597744120:0;cd polybar
+: 1597744121:0;ls
+: 1597744126:0;./tester.sh
+: 1597744163:0;ka polybar
+: 1597744171:0;ls
+: 1597744286:0;cf
+: 1597744290:0;cd polybar
+: 1597744294:0;./tester.sh
+: 1597744333:0;ka polybar
+: 1597744365:0;fc-list|ag fontawesome
+: 1597744384:0;fc-list|ag Awesome
+: 1597744394:0;fc-list|ag Termsynu
+: 1597744851:0;yain nerd-fonts-iosevka nerd-fonts-inconsolata nerd-fonts-terminus
+: 1597744881:0;cd polythemes
+: 1597744914:0;polybar-8/ls
+: 1597744922:0;ls
+: 1597744936:0;bat polybar
+: 1597745018:0;cd polybar-8/fonts/
+: 1597745019:0;ls
+: 1597745048:0;cp -r * ~/.local/share/fonts
+: 1597745058:0;fc-cache -v
+: 1597745066:0;fc-list|ag Termsynu
+: 1597745072:0;fc-list|ag term
+: 1597745096:0;fc-list|ag mater
+: 1597745102:0;ls
+: 1597745111:0;fc-list|ag terms
+: 1597745121:0;fc-list|ag icomoon
+: 1597745130:0;cd ~/.local/share/fonts
+: 1597745131:0;ls
+: 1597745138:0;cd termsyn
+: 1597745138:0;ls
+: 1597745146:0;bat fonts.dir
+: 1597745221:0;ls
+: 1597745225:0;./tester.sh
+: 1597745232:0;ka polybar
+: 1597745244:0;./tester.sh
+: 1597745272:0;ka polybar
+: 1597745290:0;cd dots_old/shit/.config/polybar
+: 1597745291:0;ls
+: 1597745295:0;vim config.ini
+: 1597745374:0;./tester.sh
+: 1597745395:0;ka polybar
+: 1597745405:0;vim config.ini
+: 1597745450:0;vim modules.ini
+: 1597745691:0;cd ~/polythemes/
+: 1597745742:0;cp polybar-3/fonts/siji.pcf ~/.local/share/fonts
+: 1597745769:0;fc-cache --really-force -v
+: 1597745784:0;fc-list|ag siji
+: 1597745867:0;ka polybar
+: 1597745888:0;vim config.ini
+: 1597745855:0;./tester.sh
+: 1597745930:0;./tester.sh
+: 1597745934:0;ka polybar
+: 1597745950:0;sudo fc-cache --really-force -v
+: 1597745970:0;./tester.sh
+: 1597745983:0;ka polybar
+: 1597746032:0;fc-match
+: 1597746104:0;fc-match "waffle:size=12;2"
+: 1597746110:0;fc-match waffle
+: 1597746115:0;man fc-match
+: 1597746211:0;./tester.sh
+: 1597746215:0;ka polybar
+: 1597746227:0;fc-list|ag Siji
+: 1597746240:0;yain siji-git
+: 1597746268:0;fc-list|ag Siji
+: 1597746276:0;fc-list|ag siji
+: 1597746278:0;reshell
+: 1597746279:0;fc-list|ag siji
+: 1597746316:0;cf
+: 1597746319:0;cd polybar
+: 1597746321:0;la
+: 1597746349:0;./tester.sh
+: 1597746363:0;ka polybar
+: 1597748089:0;bat /etc/fonts/conf.d/README
+: 1597748147:0;bat /etc/fonts/conf.d/70-no-bitmaps.conf
+: 1597748163:0;sudo rm /etc/fonts/conf.d/70-no-bitmaps.conf
+: 1597748213:0;sudo fc-cache -f -v
+: 1597748258:0;ranger
+: 1597748333:0;pidof redshift
+: 1597748344:0;vim .xinitrc
+: 1597748355:0;vim .zprofile
+: 1597748378:0;vim .profile
+: 1597748387:0;la
+: 1597748405:0;bat .Xclients
+: 1597748415:0;bat .xinitrc
+: 1597748449:0;vim .zprofile
+: 1597748484:0;ranger
+: 1597748581:0;cff
+: 1597748616:0;cf
+: 1597748621:0;cd polybar
+: 1597748623:0;ls
+: 1597748627:0;./tester.sh
+: 1597748654:0;ka polybar
+: 1597748656:0;ls
+: 1597748665:0;./tester.sh
+: 1597748713:0;dnote add linux
+: 1597748851:0;ka polybar
+: 1597748857:0;ls
+: 1597748871:0;cf
+: 1597748873:0;cd polybar
+: 1597748873:0;ls
+: 1597748889:0;bat bars.ini
+: 1597748916:0;rm bak_config bars.ini
+: 1597748917:0;ls
+: 1597748919:0;la
+: 1597748923:0;ls
+: 1597748971:0;vim modules.ini
+: 1597749011:0;ls /proc/asound/card
+: 1597749016:0;sudo  /proc/asound/card
+: 1597749024:0;sudo ls /proc/asound/card
+: 1597749059:0;sudo bat /proc/asound/cards
+: 1597749148:0;amixer scontrols | sed -nr "s/.*'([[:alnum:]]+)'.*/\1/p"
+: 1597749451:0;ls -l /sys/class/power_supply
+: 1597751477:0;vim .config/polybar/config.ini
+: 1597752328:0;vim user_modules.ini
+: 1597752407:0;vim config.ini
+: 1597752509:0;cd scripts
+: 1597752509:0;ls
+: 1597752528:0;ls vim styles.sh
+: 1597752594:0;..
+: 1597752597:0;ls
+: 1597752600:0;./tester.sh
+: 1597752625:0;vim tester.
+: 1597752635:0;vim tester.ini
+: 1597752647:0;./tester.sh
+: 1597752747:0;ls
+: 1597752755:0;vim tester.ini
+: 1597752804:0;./tester.sh
+: 1597752837:0;vim tester.ini
+: 1597752859:0;./tester.sh
+: 1597752885:0;vim tester.ini
+: 1597752942:0;ka polybar
+: 1597752945:0;ls
+: 1597752954:0;cd scripts
+: 1597752955:0;ls
+: 1597752964:0;bat powermenu
+: 1597755631:0;pacrep rofi rofi-pass rofi-scripts rofimoji
+: 1597755993:0;tldr redshift
+: 1597756008:0;man redshift
+: 1597756029:0;redshift -c
+: 1597756037:0;redshift &
+: 1597756115:0;source .xprofile
+: 1597756274:0;yarep rofi-scripts
+: 1597756376:0;mn
+: 1597756377:0;ls
+: 1597756383:0;pacrep rofi rofimoji mn
+: 1597756392:0;mn 
+: 1597756393:0;pwd
+: 1597756419:0;pacin rofi rofimoji
+: 1597756437:0;cf
+: 1597756442:0;cd polybar
+: 1597756443:0;ls
+: 1597756446:0;./tester.sh
+: 1597756462:0;ka polybar
+: 1597756466:0;cd scripts
+: 1597756472:0;ls
+: 1597756484:0;vim styles.sh
+: 1597756538:0;..
+: 1597756539:0;ls
+: 1597756543:0;bat tester.
+: 1597756545:0;bat tester.sh
+: 1597756553:0;bat tester.sh --Dark
+: 1597756564:0;./tester.sh --Dark
+: 1597756732:0;ka polybar
+: 1597756743:0;./tester.sh --Light
+: 1597756859:0;ka polybar
+: 1597756862:0;ls
+: 1597756874:0;./tester.sh
+: 1597756903:0;ka polybar
+: 1597756905:0;ls
+: 1597756917:0;bat launch.sh
+: 1597756923:0;vim config.ini
+: 1597757288:0;cfi
+: 1597757422:0;./launch.sh
+: 1597757451:0;vim config.ini
+: 1597757485:0;pwd
+: 1597757502:0;./launch.sh
+: 1597757553:0;bashtop
+: 1597757573:0;vim modules.ini
+: 1597757666:0;cf
+: 1597757668:0;cd polybar
+: 1597757672:0;./launch.sh
+: 1597757701:0;vim modules.ini
+: 1597757789:0;./launch.sh
+: 1597757818:0;pacin speedtest-cli
+: 1597757829:0;speedtest
+: 1597757889:0;./launch.sh
+: 1597757989:0;vim config.ini
+: 1597758254:0;cf 
+: 1597758258:0;cd polybar
+: 1597758258:0;ls
+: 1597758264:0;vim colors.ini
+: 1597758337:0;./launch.sh
+: 1597758819:0;ls
+: 1597758836:0;vim scripts/check-network
+: 1597758962:0;ls
+: 1597758969:0;vim user_modules.ini
+: 1597759037:0;nm-applet
+: 1597759045:0;nm-applet -h
+: 1597759051:0;nmtui
+: 1597759096:0;./launch.sh
+: 1597759116:0;vim user_modules.ini
+: 1597759386:0;./launch.sh
+: 1597759468:0;vim user_modules.ini
+: 1597759515:0;./launch.sh
+: 1597760333:0;vim scripts/styles.sh
+: 1597760379:0;./scripts/styles.sh --Dark
+: 1597760434:0;ls
+: 1597760443:0;ll
+: 1597760460:0;bat launch.sh
+: 1597760593:0;cp launch.sh ~/.local/bin/polylaunch
+: 1597760596:0;cd
+: 1597760607:0;l
+: 1597760616:0;vim .xprofile
+: 1597760490:48;vim ~/.local/bin/launch_polybar
+: 1597760708:0;polylaunch
+: 1597770301:0;cf
+: 1597770307:0;bat files 
+: 1597770334:0;bw
+: 1597770427:0;bat xprofile
+: 1597770452:0;bat directories
+: 1597770481:0;sudo fdisk -l
+: 1597770530:0;sudo mkdir /mnt/extras
+: 1597770537:0;sudo mount /dev/sda6 /mnt/extras
+: 1597770540:0;mn
+: 1597770541:0;ls
+: 1597770543:0;cd extras
+: 1597770544:0;ls
+: 1597770674:0;cp backup_20.08.16/.tools/bin/fast-p ~/.local/bin/
+: 1597770678:0;reshell
+: 1597770679:0;p
+: 1597770688:0;cfz
+: 1597770708:0;p
+: 1597770713:0;p -h
+: 1597770751:0;vim .config/aliasrc
+: 1597770770:0;reshell
+: 1597770772:0;p
+: 1597771179:0;exit
+: 1597771376:0;cf
+: 1597771382:0;cd zsh
+: 1597771388:0;git diff
+: 1597771420:0;gst
+: 1597771458:0;git rm --q .zcompdump-kopishitam-5.8
+: 1597771473:0;git rm -q .zcompdump-kopishitam-5.8
+: 1597771478:0;git rm -f .zcompdump-kopishitam-5.8
+: 1597771481:0;gst
+: 1597771530:0;git commit -am "update .zshrc"
+: 1597771572:0;git push -u origin master
+: 1597771608:0;git help fetch
+: 1597772013:0;ls
+: 1597772013:0;s
+: 1597772014:0;l
+: 1597772027:0;cd backup_20.08.16/Pictures
+: 1597772028:0;ls
+: 1597772033:0;ranger
+: 1597772218:0;getkeys
+: 1597772225:0;getkeys i3
+: 1597772295:0;cl
+: 1597772303:0;cd .local/bin/
+: 1597772305:0;l
+: 1597772317:0;l launch_polybar
+: 1597772327:0;chmod +x launch_polybar
+: 1597772330:0;l launch_polybar
+: 1597772339:0;launch_polybar
+: 1597772366:0;polylaunch
+: 1597772389:0;prompt
+: 1597772409:0;ranger
+: 1597772444:0;queueandnotify
+: 1597772528:0;sysact
+: 1597772557:0;unix
+: 1597772575:0;vifmimg
+: 1597772617:0;cd .local/bin/
+: 1597772618:0;ls
+: 1597772620:0;..
+: 1597772621:0;ls
+: 1597772622:0;la
+: 1597772627:0;cd share
+: 1597772627:0;ls
+: 1597772630:0;la
+: 1597772668:0;tldr ln
+: 1597772716:0;ls -s yosemite-sunset-3840x2160.jpg bg
+: 1597772718:0;ls
+: 1597772721:0;la
+: 1597772731:0;ls ~
+: 1597772762:0;chmod +x yosemite-sunset-3840x2160.jpg
+: 1597772763:0;ls
+: 1597772765:0;la
+: 1597772785:0;tldr chmod
+: 1597772817:0;chmod g+rx yosemite-sunset-3840x2160.jpg
+: 1597772818:0;l
+: 1597772838:0;chmod -h
+: 1597772841:0;chmod --help
+: 1597772849:0;man chmod
+: 1597772858:0;tldr chmod
+: 1597772885:0;ls
+: 1597772913:0;chmod a+rw
+: 1597772918:0;chmod a+rw yosemite-sunset-3840x2160.jpg
+: 1597772919:0;l
+: 1597773032:0;chmod 644 yosemite-sunset-3840x2160.jpg
+: 1597773033:0;l
+: 1597773070:0;ln -s yosemite-sunset-3840x2160.jpg ~/.local/share/bg
+: 1597773079:0;rm bg
+: 1597773080:0;ln -s yosemite-sunset-3840x2160.jpg ~/.local/share/bg
+: 1597773082:0;ls
+: 1597773084:0;la
+: 1597773099:0;~
+: 1597773103:0;ls
+: 1597773104:0;la
+: 1597773119:0;vim .xprofile
+: 1597773241:0;rm -rf .w3m
+: 1597773255:0;vim .xprofile
+: 1597773269:0;libinput-gestures -h
+: 1597773280:0;libinput-gestures-setup status
+: 1597773285:0;libinput-gestures-setup -h
+: 1597773331:0;ls .config/autostart
+: 1597773335:0;bat Public
+: 1597773344:0;bat .config/autostart/libinput-gestures.desktop
+: 1597773387:0;vim .config/autostart/libinput-gestures.desktop
+: 1597773439:0;polylaunch
+: 1597773450:0;libinput-gestures-setup status
+: 1597773476:0;vim .xprofile
+: 1597773647:0;libinput-gestures-setup status
+: 1597773650:0;libinput-gestures-setup start
+: 1597773820:0;sudo powertop --auto-tune
+: 1597773993:0;[200~alias downloader-cli="wget -q --show-progress --progess=bar:force:noscroll"
+: 1597773999:0;alias downloader-cli="wget -q --show-progress --progess=bar:force:noscroll"\
+
+: 1597774156:0;downloader-cli https://github.com/cassidoo/todometer/releases/download/v2.0.1/todometer.for.linux.zip
+: 1597774222:0;wget -q --show-progress --progress=bar:force:noscroll https://github.com/cassidoo/todometer/releases/download/v2.0.1/todometer.for.linux.zip
+: 1597774319:0;bat
+: 1597774346:0;mn
+: 1597774348:0;cd extras
+: 1597774349:0;ls
+: 1597774357:0;pcmanfm
+: 1597774429:0;cf
+: 1597774438:0;cd
+: 1597774450:0;cd dots_old/shit/.config/
+: 1597774450:0;ls
+: 1597774747:0;cf
+: 1597774752:0;cd polybar
+: 1597774761:0;vim modules.ini
+: 1597774839:0;polylaunch
+: 1597774851:0;ka polybar
+: 1597774885:0;polylaunch
+: 1597775321:0;vim config.ini
+: 1597775408:0;polylaunch
+: 1597775587:0;vim colors.ini
+: 1597775608:0;vim user_modules.ini
+: 1597775652:0;vim config.ini
+: 1597775730:0;polylaunch
+: 1597775949:0;vim modules.ini
+: 1597775999:0;polylaunch
+: 1597776045:0;vim .config/polybar/colors.ini
+: 1597776074:0;polylaunch
+: 1597776563:0;fuckoff
+: 1597796829:0;vim .config/polybar/modules.ini
+: 1597797005:0;polylaunch
+: 1597797013:0;ls
+: 1597797021:0;cf
+: 1597797023:0;cd polybar
+: 1597797025:0;ls
+: 1597797027:0;..
+: 1597797067:0;ls polybar
+: 1597797095:0;rm polybar/launch.sh polybar/tester.*
+: 1597797098:0;ls polybar
+: 1597797119:0;vim files
+: 1597797245:0;reshell
+: 1597797248:0;cfb
+: 1597797274:0;vim  directories
+: 1597797296:0;ls
+: 1597797308:0;bat wal/postrun
+: 1597797363:0;bat wal/templates/zathurarc
+: 1597797377:0;ls
+: 1597797399:0;bat zshnameddirrc
+: 1597797421:0;bat user-dirs.dirs
+: 1597797425:0;l
+: 1597797438:0;man termite
+: 1597797787:0;~
+: 1597797788:0;ls
+: 1597797790:0;l
+: 1597797798:0;bat .dmenurc
+: 1597797836:0;rm -rf polythemes
+: 1597797838:0;ls
+: 1597797840:0;la
+: 1597797852:0;rm pic-full-200818-1134-30.png
+: 1597797984:0;libinput-gestures-setup status
+: 1597797992:0;bat .xprofile
+: 1597798009:0;vim .xprofile
+: 1597798031:0;libinput-gestures-setup start
+: 1597799659:0;vim /etc/hosts
+: 1597800618:0;cd .mozilla/firefox/lfnjdbcc.default-release/
+: 1597800619:0;ls
+: 1597800636:0;mkdir chrome
+: 1597800867:0;sh -c "$(curl -fsSL https://raw.githubusercontent.com/mut-ex/minimal-functional-fox/master/install.sh)"
+: 1597800881:0;ls
+: 1597800884:0;ls chrome
+: 1597801021:0;pidof firefox
+: 1597801041:0;vim .mozilla/firefox/lfnjdbcc.default-release/chrome
+: 1597801172:0;vim .mozilla/firefox/lfnjdbcc.default-release/chrome/userContent.css
+: 1597801309:0;vim .mozilla/firefox/lfnjdbcc.default-release/chrome/userChrome.css
+: 1597801412:0;polylaunch
+: 1597802051:0;vim .mozilla/firefox/lfnjdbcc.default-release/chrome/userChrome.css
+: 1597805453:0;sudo powertop --auto-tune
+: 1597805468:0;cfi
+: 1597805580:0;vim dots_old/shit/.config/i3/config
+: 1597806890:0;cf
+: 1597806892:0;polybar
+: 1597806894:0;cd polybar
+: 1597806896:0;ls
+: 1597806901:0;vim colors.ini
+: 1597806961:0;cfp
+: 1597806966:0;..
+: 1597806967:0;ls
+: 1597806975:0;bat zshnameddirrc
+: 1597806981:0;bat files
+: 1597806991:0;cfb
+: 1597807009:0;vim polybar/modules.ini
+: 1597807151:0;vim polybar/colors.ini
+: 1597807335:0;bat .profile
+: 1597807538:0;cfi
+: 1597807703:0;vim dots_old/bak_manjaro_i3/bak__.i3/config
+: 1597808012:0;vim .config/polybar/modules.ini
+: 1597808052:0;vim .config/polybar/colors.ini
+: 1597808421:0;cfi
+: 1597809915:0;\
+\
+
+: 1597810505:0;vim .mozilla/firefox/lfnjdbcc.default-release/chrome/userChrome.css
+: 1597810608:0;vim .config/polybar/modules.ini
+: 1597810639:0;polylaunch
+: 1597810751:0;vim .mozilla/firefox/lfnjdbcc.default-release/chrome/userChrome.css
+: 1597812472:0;vim /etc/hosts
+: 1597812552:0;ls
+: 1597812559:0;git clone https://gist.github.com/e3a2d3545d762cad76761283447608be.git
+: 1597812563:0;ls
+: 1597812582:0;bat Documents/notes/linux
+: 1597812628:0;cat e3a2d3545d762cad76761283447608be/daftar-situs-scam-dan-judi.txt | sudo tee -a /etc/hosts
+: 1597812644:0;bat /etc/hosts
+: 1597812701:0;vim /etc/hosts
+: 1597812721:0;rm -rf e3a2d3545d762cad76761283447608be
+: 1597812891:0;git clone https://github.com/adi1090x/termite-style.git
+: 1597812905:0;cd termite-style
+: 1597812906:0;ls
+: 1597812913:0;bat install
+: 1597812943:0;bat tstyle
+: 1597812976:0;./install
+: 1597813028:0;reshell
+: 1597813042:0;termite-style -h
+: 1597813079:0;termite-style
+: 1597813143:0;bat tstyle
+: 1597813169:0;ls
+: 1597813171:0;la
+: 1597813400:0;cfz
+: 1597813419:0;cd cf
+: 1597813420:0;cf
+: 1597813424:0;cd zsh
+: 1597813426:0;ls
+: 1597813440:0;ranger
+: 1597813479:0;touch themes/oxide.zsh-theme
+: 1597813488:0;vim themes/oxide.zsh-theme
+: 1597813499:0;cfz
+: 1597813516:0;ls
+: 1597813523:0;cf
+: 1597813527:0;cd zsh
+: 1597813528:0;ls
+: 1597813544:0;gst
+: 1597813591:0;vim themes/oxide.zsh-theme
+: 1597813687:0;vim .config/zsh/custom/themes/spaceship.zsh-theme
+: 1597813873:0;termite-style
+: 1597813932:0;reshell
+: 1597813951:0;termite-style
+: 1597814026:0;ls
+: 1597814027:0;la
+: 1597814042:0;ls
+: 1597814055:0;rm -rf termite-style
+: 1597814098:0;vim .config/termite/config
+: 1597837364:0;st
+: 1597837370:0;man st
+: 1597837402:0;bat cfi
+: 1597837415:0;bat .xprofile
+: 1597837444:0;man st
+: 1597837489:0;cfi
+: 1597837552:0;man st
+: 1597837607:0;vim .profile
+: 1597837682:0;ls
+: 1597837684:0;la
+: 1597837709:0;dots
+: 1597837729:0;cff
+: 1597837735:0;cf
+: 1597837736:0;ls
+: 1597837739:0;la
+: 1597837747:0;ls
+: 1597837760:0;bat files
+: 1597837795:0;cfa
+: 1597837826:0;cfz
+: 1597837876:0;polylaunch
+: 1597837971:0;cfz
+: 1597838011:0;ref
+: 1597838052:0;cf
+: 1597838054:0;cd zsh
+: 1597838055:0;ls
+: 1597838081:0;cf
+: 1597838085:0;cd zsh
+: 1597838120:0;vim .zshrc
+: 1597838173:0;ls
+: 1597838182:0;cd custom/plugin
+: 1597838183:0;ls
+: 1597838250:0;la
+: 1597838273:0;mv dotbare ../plugins/
+: 1597838276:0;ls
+: 1597838278:0;..
+: 1597838279:0;ls
+: 1597838287:0;rm -rf plugin
+: 1597838290:0;cd plugins
+: 1597838291:0;ls
+: 1597838295:0;ls dotbare
+: 1597838418:0;cfz
+: 1597838468:0;bat .config/zsh/.zshrc
+: 1597838489:0;cf
+: 1597838541:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/custom/plugins/zsh-syntax-highlighting
+: 1597838548:0;ls
+: 1597838585:0;ref
+: 1597838589:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/custom/plugins/zsh-syntax-highlighting
+: 1597838609:0;bat .config/zsh/.zshrc
+: 1597838631:0;ls
+: 1597838641:0;ls -a zsh
+: 1597838655:0;bat zsh/.zshrc
+: 1597838670:0;cfz
+: 1597838691:0;reshell
+: 1597838726:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+: 1597838734:0;ls
+: 1597838736:0;..
+: 1597838737:0;ls
+: 1597838786:0;rm -rf themes/custom themes/plugins
+: 1597838788:0;ls
+: 1597838810:0;reshell
+: 1597838852:0;ref
+: 1597838863:0;dotbare -h
+: 1597838923:0;cfz
+: 1597838964:0;ref
+: 1597838990:0;cd zsh
+: 1597838991:0;ls
+: 1597839034:0;bat custom/plugins/dotbare/dotbare.plugin.zsh
+: 1597839152:0;vim .zshrc 
+: 1597839194:0;ref
+: 1597839198:0;reshell
+: 1597839214:0;cfz
+: 1597839230:0;reshell
+: 1597839235:0;ref
+: 1597839241:0;dots 
+: 1597839311:0;cfz
+: 1597839328:0;ref
+: 1597839331:0;reshell
+: 1597839379:0;dots -h
+: 1597839382:0;dotbare -h
+: 1597839407:0;dotbare -g 
+: 1597839427:0;ls
+: 1597839429:0;la
+: 1597839479:0;ls themes 
+: 1597839488:0;l
+: 1597839567:0;tldr du
+: 1597839581:0;ls
+: 1597839586:0;du -h themes
+: 1597839592:0;la
+: 1597839654:0;bat oh-my-zsh.sh
+: 1597839684:0;ls .git
+: 1597839701:0;bat .git/config
+: 1597839735:0;gst
+: 1597839799:0;dnote
+: 1597839806:0;dnote v linux
+: 1597839810:0;dnote v linux 3
+: 1597839821:0;dnote v
+: 1597839841:0;bat Documents/notes/linux
+: 1597839855:0;echo ".zcompdump" >> .gitignore
+: 1597839861:0;bat .gitignore
+: 1597839883:0;ls
+: 1597839886:0;la
+: 1597839894:0;cd .git
+: 1597839900:0;ls
+: 1597839910:0;vim config
+: 1597840068:0;..
+: 1597840078:0;vim .git/config
+: 1597840087:0;gst
+: 1597840188:0;git add custom/plugins/* custom/themes/oxide.zsh-theme
+: 1597840223:0;mn
+: 1597840225:0;cd extras
+: 1597840227:0;ls
+: 1597840248:0;..
+: 1597840279:0;cd /run/media/apiz19/Extras/backup_20.08.16/Downloads/git/dotfiles/
+: 1597840281:0;la
+: 1597840315:0;cp .oh-my-zsh/themes/oxide.zsh-theme $ZDOTDIR/custom/themes/
+: 1597840326:0;gst
+: 1597840365:0;git add .
+: 1597840397:0;cd custom/plugins/dotbare
+: 1597840399:0;la
+: 1597840442:0;rm -rf *.md .git .github
+: 1597840446:0;ls
+: 1597840456:0;la
+: 1597840459:0;bat .gitignore
+: 1597840472:0;gst
+: 1597840487:0;..
+: 1597840489:0;ls
+: 1597840492:0;cd zsh-syntax-highlighting
+: 1597840493:0;ls
+: 1597840503:0;rm -rf *.md .git .github
+: 1597840504:0;la
+: 1597840514:0;..
+: 1597840518:0;ls
+: 1597840537:0;vim .git/config
+: 1597840556:0;gst
+: 1597840591:0;git commit -m "cleaning .git and some files"
+: 1597840606:0;git push -u origin master
+: 1597840653:0;git push help
+: 1597840659:0;git push --help
+: 1597840681:0;glols
+: 1597840786:0;ls
+: 1597840815:0;la
+: 1597840824:0;rm -rf *.md .git .github
+: 1597840839:0;ls
+: 1597840846:0;..
+: 1597840851:0;du -h zsh
+: 1597840866:0;..
+: 1597840868:0;ls
+: 1597840869:0;cf
+: 1597840880:0;..
+: 1597840882:0;ls
+: 1597840884:0;la
+: 1597840888:0;bat .rgb.txt
+: 1597842829:0;cfa
+: 1597842868:0;ref
+: 1597842870:0;reshell
+: 1597842946:0;polylaunch
+: 1597842960:0;cfz
+: 1597842981:0;cf
+: 1597842987:0;cd zsh/
+: 1597842988:0;ls
+: 1597843029:0;reshell
+: 1597843065:0;cfz
+: 1597843080:0;reshell
+: 1597843195:0;cfx
+: 1597843206:0;cf
+: 1597843210:0;bat files
+: 1597843219:0;:q
+: 1597843222:0;ls
+: 1597843227:0;bat xprofile
+: 1597843233:0;bat xinitrc
+: 1597843236:0;..
+: 1597843246:0;bat .xprofile
+: 1597843260:0;bat .zprofile
+: 1597843276:0;vim .zprofile
+: 1597843555:0;echo bat .zprofile
+: 1597843567:0;ls .zprofile
+: 1597843633:0;bat .xprofile
+: 1597843637:0;bat .profile
+: 1597843690:0;cp .profile .zprofile
+: 1597843697:0;cp .profile .zprofile_
+: 1597843699:0;ls
+: 1597843699:0;la
+: 1597843704:0;bat .zprofile
+: 1597843717:0;bat .zprofile_
+: 1597843737:0;reshell
+: 1597843740:0;bat .zprofile
+: 1597843749:0;rm .zprofile_
+: 1597843817:0;echo "$XDG_CONFIG_HOME/.cfg" >> .gitignore
+: 1597843823:0;bat .gitignore
+: 1597843866:0;vim .gitignore
+: 1597843902:0;ls
+: 1597843989:0;dots finit
+: 1597844019:0;source .zprofile
+: 1597844027:0;echo $DOTBARE_DIR
+: 1597844035:0;la
+: 1597844043:0;dots finit
+: 1597844085:0;dots fadd -f
+: 1597844138:0;dots fstat
+: 1597844149:0;cf
+: 1597844186:0;vim bspwm/bspwm/bspwmrc
+: 1597844307:0;rm zsh/.git*
+: 1597844361:0;mv i3blocks/ i3/
+: 1597844368:0;ls
+: 1597844406:0;dots fadd -d
+: 1597844419:0;..
+: 1597844424:0;dots fadd -d
+: 1597844716:0;git submodule add https://github.com/junegunn/goyo.vim.git .config/nvim/plugged/goyo.vim
+: 1597844740:0;dots submodule add https://github.com/junegunn/goyo.vim.git .config/nvim/plugged/goyo.vim
+: 1597844747:0;gst
+: 1597844759:0;dots fstat
+: 1597844853:0;dots funtrack
+: 1597844874:0;cf
+: 1597845098:0;dots funtrack
+: 1597845327:0;dots fstat
+: 1597845500:0;dots funtrack
+: 1597845973:0;dots fstat
+: 1597846083:0;cf
+: 1597846085:0;cd zsh
+: 1597846086:0;ls
+: 1597846097:0;bat .zshrc
+: 1597846113:0;vim oh-my-zsh.sh
+: 1597846177:0;ls
+: 1597846229:0;rm LICENSE.txt
+: 1597846230:0;ls
+: 1597846260:0;bat cache/grep-alias 
+: 1597846292:0;bat tools/theme_chooser.sh 
+: 1597846329:0;./tools/theme_chooser.sh
+: 1597846378:0;la ~
+: 1597846396:0;vim tools/theme_chooser.sh
+: 1597846421:0;./tools/theme_chooser.sh
+: 1597846704:0;bat .zsh_favlist
+: 1597846716:0;vim .zsh_favlist
+: 1597846728:0;ls
+: 1597846747:0;cd tools
+: 1597846747:0;ls
+: 1597846765:0;vim ../oh-my-zsh.sh
+: 1597846794:0;rm theme_chooser.sh
+: 1597846797:0;vim ../oh-my-zsh.sh
+: 1597846809:0;bat require_tool.sh
+: 1597846840:0;require_tool.sh
+: 1597846845:0;./require_tool.sh
+: 1597846906:0;ls
+: 1597846912:0;..
+: 1597846913:0;ls
+: 1597846930:0;bat .zsh_favlist
+: 1597846959:0;mkdir themes/bak
+: 1597846974:0;cd themes
+: 1597846996:0;mv avit.zsh-theme bureau.zsh-theme frontcube.zsh-theme nicoulaj.zsh-theme oxide.zsh-theme refined.zsh-theme bak
+: 1597847018:0;rm *-themes
+: 1597847043:0;rm *.zsh-theme
+: 1597847047:0;ls
+: 1597847072:0;mv bak/* ../themes/
+: 1597847075:0;ls
+: 1597847079:0;rm -rf bak
+: 1597847081:0;ls
+: 1597847082:0;..
+: 1597847084:0;ls
+: 1597847095:0;cd plugins/
+: 1597847096:0;ls
+: 1597847150:0;mkdir bak_plug
+: 1597847175:0;cfz
+: 1597847261:0;cd Downloads
+: 1597847262:0;ls
+: 1597847287:0;ref
+: 1597847290:0;reshell
+: 1597847303:0;mv git archlinux extract dnote fd colored-man-pages bak_plug
+: 1597847306:0;ls
+: 1597847325:0;mv bak_plug ../
+: 1597847343:0;rm -rf *
+: 1597847353:0;ls
+: 1597847366:0;mv ../bak_plug/* ../plugins
+: 1597847369:0;ls
+: 1597847373:0;..
+: 1597847376:0;rm bak_plug
+: 1597847380:0;rm -rf bak_plug
+: 1597847381:0;ls
+: 1597847392:0;dots fstat
+: 1597847424:0;dots flog
+: 1597847434:0;dots funtrack
+: 1597847473:0;dots status
+: 1597847498:0;dots status | head
+: 1597847515:0;dots status | head 20
+: 1597847522:0;head -h
+: 1597847528:0;head --help
+: 1597847538:0;dots status | head -n 20
+: 1597847544:0;dots status | head -n 40
+: 1597847578:0;dots freset
+: 1597848175:0;dots commit -am "first init"

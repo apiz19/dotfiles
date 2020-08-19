@@ -1,0 +1,1 @@
+/home/apiz19/.config/zsh/custom/themes/spaceship-prompt/spaceship.zsh-theme
