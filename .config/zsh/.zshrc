@@ -1,6 +1,10 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/home/apiz19/.config/zsh"
 ZSH_THEME="spaceship"
+
+# spaceship THEMES settings
+SPACESHIP_CHAR_SYMBOL="❯ "
+
 # Uncomment the following line to disable bi-weekly auto-update checks.
  DISABLE_AUTO_UPDATE="true"
 # Uncomment the following line to enable command auto-correction.
@@ -19,13 +23,12 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git extract dnote fd dotbare archlinux zsh-syntax-highlighting colored-man-pages)
+plugins=(git dnote fd dotbare archlinux zsh-syntax-highlighting colored-man-pages)
 
 # Load aliases and shortcuts if existent.
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shortcutrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/shortcutrc"
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/aliasrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/aliasrc"
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/zshnameddirrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/zshnameddirrc"
-# [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/functionrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/functionrc"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -46,10 +49,12 @@ function p () {
     | cut -z -f 1 -d $'\t' | tr -d '\n' | xargs -r --null $open
 }
 
-# fuzzy search | fzf
-source /usr/share/fzf/key-bindings.zsh
-source /usr/share/fzf/completion.zsh
+# fzf config
+[ -f /usr/share/fzf/completion.zsh ] && source /usr/share/fzf/completion.zsh
+[ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
 
-# completion
-autoload -U compinit && compinit
+# dotbare completion
 _dotbare_completion_cmd
+
+# Navi Cheatsheet
+source <(echo "$(navi widget zsh)")

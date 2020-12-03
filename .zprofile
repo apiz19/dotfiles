@@ -8,6 +8,9 @@
 # Adds `~/.local/bin` to $PATH
 export PATH="$PATH:$(du "$HOME/.local/bin" | cut -f2 | paste -sd ':')"
 
+# GEM PATH
+PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
+
 # Default programs:
 export EDITOR="nvim"
 export TERMINAL="st"
@@ -44,11 +47,12 @@ export ICONS_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/.icons"
 #export DNOTE_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/.dnote"
 export DOTBARE_DIR="$XDG_CONFIG_HOME/.cfg"
 export DOTBARE_TREE="$HOME"
+export ROFI_PASS_CONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/rofi/rofi-pass/config"
 
 # Other program settings:
 export DICS="/usr/share/stardict/dic/"
 export SUDO_ASKPASS="$HOME/.local/bin/dmenupass"
-export FZF_DEFAULT_OPTS="--layout=reverse --height 40%"
+export FZF_DEFAULT_OPTS="--layout=reverse --height 80%"
 export LESS=-R
 export LESS_TERMCAP_mb="$(printf '%b' '[1;31m')"
 export LESS_TERMCAP_md="$(printf '%b' '[1;36m')"

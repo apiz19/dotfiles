@@ -4,3 +4,9 @@
 	bare = true
 [status]
 	showUntrackedFiles = no
+[remote "origin"]
+	url = https://github.com/apiz19/dotfiles.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master

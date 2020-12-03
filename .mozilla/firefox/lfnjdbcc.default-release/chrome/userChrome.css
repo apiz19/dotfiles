@@ -251,7 +251,7 @@ box.panel-arrowbox {
 }
 
 box.panel-arrowcontent {
-  border-radius: 8px !important;
+  border-radius: 6px !important;
   border: none !important;
 }
 
@@ -272,7 +272,7 @@ toolbar#nav-bar {
 }
 
 toolbar#nav-bar {
-  padding: 4px !important;
+  padding: 2px !important;
 }
 
 #urlbar {

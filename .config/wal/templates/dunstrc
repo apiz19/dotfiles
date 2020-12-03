@@ -1,7 +1,7 @@
 [global]
     monitor = 0
     follow = keyboard
-    geometry = "350x5-0+24"
+    geometry = "0x5-25+25"
     indicate_hidden = yes
     shrink = yes
     transparency = 20
@@ -23,8 +23,8 @@
     # Sort messages by urgency.
     sort = yes
 
-    idle_threshold = 120
-    font = Monospace 14
+    idle_threshold = 60
+    font = Source Sans Pro 11
     line_height = 0
     markup = full
 
@@ -50,9 +50,9 @@
     show_indicators = yes
     icon_position = left
     max_icon_size = 40
-    #icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/:/usr/share/icons/Adwaita/256x256/status/
     sticky_history = yes
     history_length = 20
+    icon_path = /usr/share/icons/Paper/16x16/status/:/usr/share/icons/Paper/16x16/devices/:/usr/share/icons/Paper/16x16/apps/
     dmenu = /usr/bin/dmenu -p dunst:
     browser = /usr/bin/firefox -new-tab
 
@@ -91,7 +91,7 @@
     foreground = "{foreground}"
     frame_color = "#fabd2f"
     timeout = 0
-
+    icon = /usr/share/icons/Paper/16x16/status/dialog-warning.png
 # Every section that isn't one of the above is interpreted as a rules to
 # override settings for certain messages.
 # Messages can be matched by "appname", "summary", "body", "icon", "category",

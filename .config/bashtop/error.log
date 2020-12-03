@@ -5,3 +5,19 @@ New instance of bashtop version: 0.9.24 Pid: 217222
 PSUTIL ERROR! Command: get_nics()
 'enp2s0'
 20:32:34 ERROR: On line 1048 
+ 
+New instance of bashtop version: 0.9.24 Pid: 112248
+ 
+New instance of bashtop version: 0.9.24 Pid: 68396
+ 
+New instance of bashtop version: 0.9.24 Pid: 139671
+PSUTIL ERROR! Command: get_nics()
+'enp2s0'
+20:20:51 ERROR: On line 1048 
+20:21:28 ERROR: On line 4032 
+20:21:28 ERROR: On line 4032 
+ 
+New instance of bashtop version: 0.9.25 Pid: 2342
+PSUTIL ERROR! Command: get_nics()
+'enp2s0'
+00:55:29 ERROR: On line 1048 

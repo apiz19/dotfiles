@@ -8,7 +8,7 @@
 # screen) and so they are needed there. To prevent doubling up commands, I
 # source them here with the line below.
 
-export STATUSBAR="py3status" # Uncomment this line when using i3.
+# export STATUSBAR="py3status" # Uncomment this line when using i3.
 
 . ~/.xprofile
 
@@ -18,4 +18,4 @@ export STATUSBAR="py3status" # Uncomment this line when using i3.
 # Comment/uncomment these lines depending on what wm you want to use. Also
 # check the i3blocks line above.
 # ssh-agent dwm
-ssh-agent i3
+exec i3

@@ -19,6 +19,9 @@ Plug 'bling/vim-airline'
 Plug 'tpope/vim-commentary'
 Plug 'kovetskiy/sxhkd-vim'
 Plug 'ap/vim-css-color'
+Plug 'sheerun/vim-polyglot'
+Plug 'franbach/miramare'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 set bg=light
@@ -108,6 +111,17 @@ set clipboard+=unnamedplus
 	autocmd BufRead,BufNewFile /tmp/neomutt* :Goyo | set bg=light
 	autocmd BufRead,BufNewFile /tmp/neomutt* map ZZ :Goyo\|x!<CR>
 	autocmd BufRead,BufNewFile /tmp/neomutt* map ZQ :Goyo\|q!<CR>
+
+"""""""	MIRAMARE COLORSCHEMES
+" important!!
+set termguicolors
+
+" the configuration options should be placed before `colorscheme miramare`
+let g:miramare_enable_italic = 1
+let g:miramare_disable_italic_comment = 1
+
+colorscheme miramare
+""""""""
 
 " Automatically deletes all trailing whitespace and newlines at end of file on save.
 	autocmd BufWritePre * %s/\s\+$//e

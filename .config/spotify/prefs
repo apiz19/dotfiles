@@ -1,4 +1,14 @@
-app.autostart-mode=""
+autologin.saved_credentials="{\"apiz19\":[\"apiz19\",\"XVHGpRSfsgDPX2TvdNBnxIuJCHUqLSE+dBSEvQdW+o0Mex6P05vSbl0p4KO4KNgtvy46JFyPFPJ3yag0ytyn1nqxdVRvi23n/Lt+zS5CnZCdtWN3vTpT820GXACoCXiqJL2kvyORrEokiKr4achLjRUe/1cYfrQB7z7Wb5XcrpXIizHRk1jc3kCI/o9gi5qUGsmG/H/MADRDFdqd1tP9Xg==\"]}"
+autologin.blob="XVHGpRSfsgDPX2TvdNBnxIuJCHUqLSE+dBSEvQdW+o0Mex6P05vSbl0p4KO4KNgtvy46JFyPFPJ3yag0ytyn1nqxdVRvi23n/Lt+zS5CnZCdtWN3vTpT820GXACoCXiqJL2kvyORrEokiKr4achLjRUe/1cYfrQB7z7Wb5XcrpXIizHRk1jc3kCI/o9gi5qUGsmG/H/MADRDFdqd1tP9Xg=="
+autologin.username="apiz19"
+app.window.position.saved=true
+app.window.position.height=598
+app.window.position.y=94
+app.window.position.x=142
+autologin.canonical_username="apiz19"
 storage.last-location="/home/apiz19/.cache/spotify/Storage"
-app.last-launched-version="1.1.10.546.ge08ef575"
+app.window.position.width=1078
+core.clock_delta=1
+app.enable-developer-mode=true
+app.last-launched-version="1.1.42.622.gbd112320"
 app.autostart-configured=true

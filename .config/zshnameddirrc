@@ -10,3 +10,4 @@ hash -d pp=${XDG_PICTURES_DIR:-$HOME/Pictures}
 hash -d sc=$HOME/.local/bin 
 hash -d src=$HOME/.local/src 
 hash -d vv=${XDG_VIDEOS_DIR:-$HOME/Videos} 
+hash -d tga=$HOME/Documents/TGA 

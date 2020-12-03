@@ -37,3 +37,6 @@ application/x-extension-shtml=firefox.desktop;
 application/xhtml+xml=firefox.desktop;
 application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
+image/svg+xml=file.desktop;
+text/plain=wps-office-et.desktop;
+application/gpx+xml=vim.desktop;nvim.desktop;

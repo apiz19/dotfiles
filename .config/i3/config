@@ -28,7 +28,7 @@ set $hibernate sudo -A systemctl suspend
 floating_modifier $mod
 
 # #---Gaps---# #
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 1
 gaps inner $inner_gaps
 gaps outer $outer_gaps
 smart_gaps on
@@ -44,16 +44,25 @@ for_window [instance="dropdown_dropdowncalc"] resize set 800 300
 for_window [instance="dropdown_tmuxdd"] border pixel 3
 for_window [instance="dropdown_dropdowncalc"] border pixel 2
 for_window [instance="dropdown_*"] move position center
-# for_window [class="Spotify"] move to workspace $ws6, floating toggle border none, resize shrink width 1000px, resize grow width 1080px, resize shrink height 1000px, resize grow height 600px
+for_window [class="Spotify"] move to workspace $ws5 floating enable resize set 1080 600
 # for_window [class="xdman-Main"] floating enable border pixel 1
 for_window [class="firefox"] border none
 
-# bar {
-#	font pango:mono 10
-#	status_command py3status
-#	position top
-#	mode dock
-#	modifier None
+# BAR using i3status-rust
+
+#bar {
+#   font pango:DejaVu Sans Mono, FontAwesome 12
+#    position top
+#    status_command path/to/i3status-rs path/to/your/config.toml
+#    colors {
+#        separator #666666
+#        background #222222
+#        statusline #dddddd
+#        focused_workspace #FBA922 #FBA922 #ffffff
+#        active_workspace #333333 #333333 #ffffff
+#        inactive_workspace #333333 #333333 #888888
+#        urgent_workspace #2f343a #900000 #ffffff
+#    }
 #}
 
 # #---Basic Bindings---# #
@@ -69,7 +78,7 @@ bindsym $mod+Shift+Escape	exec --no-startup-id prompt "Exit i3?" "i3 exit"
 # bindsym $mod+BackSpace
 bindsym $mod+Shift+BackSpace	exec --no-startup-id prompt "Reboot computer?" "$reboot"
 
-bindsym $mod+grave		exec --no-startup-id dmenuunicode
+# bindsym $mod+grave		exec --no-startup-id dmenuunicode
 ##bindsym $mod+asciitilde
 
 #STOP/HIDE EVERYTHING:
@@ -81,28 +90,30 @@ bindsym $mod+Insert		exec --no-startup-id notify-send "📋 Clipboard contents:"
 
 # #---Letter Key Bindings---# #
 bindsym $mod+q			split toggle
-bindsym $mod+Shift+q		[con_id="__focused__" instance="^(?!dropdown_).*$"] exec --no-startup-id kill -9 `xdotool getwindowfocus getwindowpid`
+bindsym $mod+Shift+q		kill
+bindsym $alt+Ctrl+q		[con_id="__focused__" instance="^(?!dropdown_).*$"] exec --no-startup-id kill -9 `xdotool getwindowfocus getwindowpid`
 
 bindsym $mod+w			exec --no-startup-id $BROWSER
 bindsym $mod+Shift+w		exec $term -e nmtui
 bindsym $alt+w			layout tabbed
 
-bindsym $mod+e			exec $term -e neomutt && pkill -RTMIN+12 i3blocks
+# bindsym $mod+e			exec $term -e neomutt && pkill -RTMIN+12 i3blocks
 # bindsym $mod+Shift+e		exec --no-startup-id tutorialvids
 bindsym $alt+e			layout toggle split
 
-bindsym $mod+r 			exec $term -e lf
-bindsym $mod+Shift+r		exec --no-startup-id winresize
+# bindsym $mod+r 			exec $term -e lf
+# bindsym $mod+Shift+r		exec --no-startup-id winresize
 
 # bindsym $mod+t			split toggle
 bindsym $mod+Shift+t		gaps inner current set $inner_gaps; gaps outer current set $outer_gaps
 
-bindsym $mod+y			exec $term -e calcurse
+# bindsym $mod+y
 bindsym $mod+Shift+y		exec --no-startup-id i3resize left
-bindsym $alt+y			border normal 0
+# bindsym $alt+y
 
 bindsym $mod+u			exec --no-startup-id ddspawn tmuxdd
 bindsym $mod+Shift+u		exec --no-startup-id i3resize down
+bindsym $alt+u			border normal 0
 
 bindsym $mod+i 			exec $term -e htop
 bindsym $mod+Shift+i		exec --no-startup-id i3resize up
@@ -112,8 +123,8 @@ bindsym $mod+o			sticky toggle
 bindsym $mod+Shift+o		exec --no-startup-id i3resize right
 bindsym $alt+o 			border none
 
-bindsym $mod+p			exec --no-startup-id mpc toggle
-bindsym $mod+Shift+p		exec --no-startup-id mpc pause
+# bindsym $mod+p			exec --no-startup-id mpc toggle
+bindsym $mod+Shift+p		exec rofi-pass
 bindsym $alt+Shift+p mode "$toggle_polybar"; exec notify-send 'polybar hide/show'
 
 set $toggle_polybar Polybar [h]ide [s]how
@@ -126,19 +137,19 @@ mode "$toggle_polybar" {
     bindsym Return mode "default"
 }
 
-# bindsym $mod+a			exec --no-startup-id ddspawn dropdowncalc -f mono:pixelsize=24
+# bindsym $mod+a			exec --no-startup-id ddspawn dropdowncalc -f mono:pixelsize=14
 bindsym $mod+Shift+a		exec $term -e pulsemixer
 
 bindsym $mod+s			gaps inner current plus 5
 bindsym $mod+Shift+s		gaps inner current minus 5
 bindsym $alt+s			layout stacking
 
-bindsym $mod+d exec --no-startup-id termite -t 'fzf-menu' -e 'i3-dmenu-desktop --dmenu=fzf'
+bindsym $mod+d 			exec --no-startup-id termite -t 'fzf-menu' -e 'i3-dmenu-desktop --dmenu=fzf'
 for_window [title="fzf-menu"] floating enable move position 555 px 256 px resize set 250 200
 bindsym $mod+Shift+d		gaps inner current set 0; gaps outer current set 0
 
 bindsym $mod+f			fullscreen toggle
-bindsym $mod+Shift+f		exec pcmanfm
+bindsym $mod+Shift+f		exec thunar
 
 bindsym $mod+g			workspace prev
 # bindsym $mod+Shift+g		exec --no-startup-id gimp; workspace $ws5
@@ -165,16 +176,17 @@ bindsym $mod+Shift+z		gaps outer current minus 5
 # bindsym $mod+x
 # bindsym $mod+Shift+x
 
-# bindsym $mod+c
+bindsym $mod+c 			exec $term -e calcurse
 # bindsym $mod+Shift+c
+for_window [title="calcurse"] 	floating enable move position absolute center
 
 bindsym $mod+v			exec --no-startup-id $term -e $EDITOR -c "VimwikiIndex"
 #bindsym $mod+Shift+v
 
-# bindsym $mod+b			bar mode toggle
+bindsym $mod+b			exec --no-startup-id buku_run
 bindsym $mod+Shift+b		floating toggle; sticky toggle; exec --no-startup-id hover left
 bindsym $mod+Ctrl+b 		exec $term -e 'bmenu'
-for_window [class="^bmenu$"] 	floating enable
+for_window [title="bmenu"] 	floating enable
 
 bindsym $mod+n			exec $term -e newsboat && pkill -RTMIN+6 i3blocks
 bindsym $mod+Shift+n		floating toggle; sticky toggle; exec --no-startup-id hover right
@@ -185,8 +197,8 @@ bindsym $mod+Shift+m		exec --no-startup-id pulsemixer --toggle-mute && pkill -RT
 # #---Workspace Bindings---# #
 bindsym $mod+Home		workspace $ws1
 bindsym $mod+Shift+Home		move container to workspace $ws1
-bindsym $mod+End		workspace $ws10
-bindsym $mod+Shift+End		move container to workspace $ws10
+bindsym $mod+End		workspace $ws8
+bindsym $mod+Shift+End		move container to workspace $ws8
 bindsym $mod+Prior		workspace prev
 bindsym $mod+Shift+Prior	move container to workspace prev
 bindsym $mod+Next		workspace next
@@ -202,18 +214,23 @@ bindsym $mod+slash		split vertical ;; exec $term
 bindsym $mod+Shift+slash	kill
 bindsym $mod+backslash		workspace back_and_forth
 
-set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
-set $ws4 "4"
-set $ws5 "5"
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
-set $ws10 "10"
+set $ws1 "term"
+set $ws2 "web"
+set $ws3 "code"
+set $ws4 "docs"
+set $ws5 "med"
+set $ws6 "dsgn"
+set $ws7 "etc"
+set $ws8 "gen"
 
-# switch to workspace
+# Programs on spesific workspace
+assign [class="^firefox$"]			$ws2
+assign [class="^Brave-browser$"]		$ws2
+assign [class="^Wps$"]				$ws4
+assign [class="^Gimp$"]				$ws6
+assign [class="^Inkscape$"]			$ws6
+
+# switch to workspace & lockscreen
 bindsym $mod+1		workspace $ws1
 bindsym $mod+2		workspace $ws2
 bindsym $mod+3		workspace $ws3
@@ -222,7 +239,7 @@ bindsym $mod+5		workspace $ws5
 bindsym $mod+6		workspace $ws6
 bindsym $mod+7		workspace $ws7
 bindsym $mod+8		workspace $ws8
-bindsym $mod+9 exec --no-startup-id xset dpms force off && mpc pause && pauseallmpv && blurlock
+bindsym $mod+Shift+9 	exec --no-startup-id xset dpms force off && mpc pause && pauseallmpv && blurlock
 
 bindsym $mod+0 mode "$mode_system"
 set $mode_system (l)ock, (e)xit, switch_(u)ser, (s)uspend, (h)ibernate, (r)eboot, (Shift+s)hutdown
@@ -249,8 +266,6 @@ bindsym $mod+Shift+5	move container to workspace $ws5
 bindsym $mod+Shift+6	move container to workspace $ws6
 bindsym $mod+Shift+7	move container to workspace $ws7
 bindsym $mod+Shift+8	move container to workspace $ws8
-bindsym $mod+Shift+9	move container to workspace $ws9
-bindsym $mod+Shift+0	move container to workspace $ws10
 
 for_window [class="Pinentry"] sticky enable
 for_window [class="sent"] border pixel 0px
@@ -295,16 +310,16 @@ bindsym $mod+Right 		focus right
 bindsym $mod+Shift+Right 	move right
 bindsym $mod+Ctrl+Right		move workspace to output right
 
-# #---Media Keys---# #
-# Volume keys
-bindsym $mod+plus		exec --no-startup-id pulsemixer --change-volume +5 && pkill -RTMIN+10 i3blocks
-bindsym $mod+Shift+plus		exec --no-startup-id pulsemixer --change-volume +15 && pkill -RTMIN+10 i3blocks
-bindsym $mod+minus 		exec --no-startup-id pulsemixer --change-volume -5 && pkill -RTMIN+10 i3blocks
-bindsym $mod+Shift+minus	exec --no-startup-id pulsemixer --change-volume -15 && pkill -RTMIN+10 i3blocks
-bindsym $mod+less 		exec --no-startup-id mpc prev
-bindsym $mod+Shift+less		exec --no-startup-id mpc seek 0%
-bindsym $mod+greater		exec --no-startup-id mpc next
-bindsym $mod+Shift+greater	exec --no-startup-id mpc next
+# #---Window Management & Media Keys---# #
+# it not Volume keys anymore
+bindsym $mod+plus		exec --no-startup-id ddspawn dropdowncalc -f mono:pixelsize=14
+# bindsym $mod+Shift+plus
+bindsym $mod+minus		scratchpad show
+bindsym $mod+Shift+minus	move scratchpad
+# bindsym $mod+less 		exec --no-startup-id mpc prev
+# bindsym $mod+Shift+less		exec --no-startup-id mpc seek 0%
+# bindsym $mod+greater		exec --no-startup-id mpc next
+# bindsym $mod+Shift+greater	exec --no-startup-id mpc next
 
 # For advancing forward/backward in an mpd song
 bindsym $mod+bracketleft 	exec --no-startup-id mpc seek -10
@@ -359,8 +374,10 @@ bindsym XF86AudioRewind		exec --no-startup-id mpc seek -10
 bindsym XF86AudioForward	exec --no-startup-id mpc seek +10
 ##bindsym XF86Phone		exec
 ##bindsym XF86Tools		exec
-bindsym XF86HomePage		exec $BROWSER https://lukesmith.xyz
-bindsym XF86Reload		restart
+# bindsym XF86HomePage		exec $BROWSER https://lukesmith.xyz
+# bindsym XF86Reload		restart
+# bindsym XF86HomePage		exec $BROWSER https://lukesmith.xyz
+# bindsym XF86Reload		restart
 ##bindsym XF86ScrollUp		exec
 ##bindsym XF86ScrollDown		exec
 ##bindsym XF86New		exec
@@ -401,4 +418,7 @@ bindsym XF86Display		exec --no-startup-id displayselect
 bindsym XF86Documents		exec $term -e lf ~/Documents
 ##bindsym XF86Battery		exec
 ##bindsym XF86Bluetooth		exec
-bindsym XF86WLAN		exec $netrefresh
+bindsym XF87WLAN		exec $netrefresh
+
+exec_always --no-startup-id dunst
+exec --no-startup-id $XDG_CONFIG_HOME/i3/script/alternating_layouts.py
