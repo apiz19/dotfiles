@@ -1,0 +1,114 @@
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210122T175510Z","tags":["nulis laporan BAB4","tga"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210122T175510Z","tags":["nulis laporan BAB4","tga"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210122T175510Z","end":"20210122T182238Z","tags":["nulis laporan BAB4","tga"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210125T053017Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210125T053017Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210125T053017Z","end":"20210125T064330Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210126T042150Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210126T042150Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210126T042150Z","end":"20210126T093400Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210127T041824Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210127T041824Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210127T041824Z","end":"20210127T063224Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210127T063239Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210127T063239Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210127T063239Z","end":"20210127T063250Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210201T054546Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210201T054546Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210201T054546Z","end":"20210201T081655Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210203T042408Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210203T042408Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210203T042408Z","end":"20210203T071757Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210203T071759Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210203T071759Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210203T071759Z","end":"20210203T071800Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210203T071800Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210203T071800Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210203T071800Z","end":"20210203T071801Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210203T071802Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20210203T071802Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20210203T071802Z","end":"20210203T071803Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20210203T071804Z","tags":["Tugas Akhir","selesaikan BAB4","tga"]}

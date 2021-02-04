@@ -1,0 +1,77 @@
+727562614f5734e5ff19b7f4b85856cc|file:///home/apiz19/.config/polybar/scripts/task.sh|4|34|v|sh
+	$signal%
+9b4e1bbb3f94cfdced6cd7b574cda7a5|file:///home/apiz19/.config/polybar/colors.ini|26|7|v|dosini
+	#cc241d
+	
+979c70edf382f6d1a889879e9447b574|file:///home/apiz19/.config/polybar/scripts/task.sh|4|26|v|sh
+	#f9cc18}
+b6d25839d95503050f37799fc65b8d6c|file:///home/apiz19/.config/polybar/scripts/net_man.sh|20|1|V|sh
+	                        description="$description - %{F#f9cc18}$signal%%{F-}"
+2e21fae2fe9eeb4ff30a5a494239056f|file:///home/apiz19/.local/bin/statusbar/nettraf|13|1|V|sh
+	update() {
+	    sum=0
+	    for arg; do
+	        read -r i < "$arg"
+	        sum=$(( sum + i ))
+	    done
+	    cache=${XDG_CACHE_HOME:-$HOME/.cache}/${1##*/}
+	    [ -f "$cache" ] && read -r old < "$cache" || old=0
+	    printf %d\\n "$sum" > "$cache"
+	    printf %d\\n $(( sum - old ))
+	}
+	
+	rx=$(update /sys/class/net/[ew]*/statistics/rx_bytes)
+	tx=$(update /sys/class/net/[ew]*/statistics/tx_bytes)
+	
+	printf "🔻%4sB 🔺%4sB\\n" $(numfmt --to=iec $rx) $(numfmt --to=iec $tx)
+3943678116bac479e9460311378f6b06|file:///home/apiz19/.config/polybar/scripts/net_man.sh|62|1|V|sh
+	network_update() {
+	    pid=$(cat "$path_pid")
+	
+	    if [ "$pid" != "" ]; then
+	        kill -10 "$pid"
+	    fi
+	}
+	
+	path_pid="/tmp/polybar-network-networkmanager.pid"
+9b8fb635ae38d2f0819f8d913da2b4b9|file:///home/apiz19/.config/polybar/scripts/net_man.sh|20|39|v|sh
+	description 
+34f103014faaeaf4d2b04e1724c3c761|file:///home/apiz19/.config/polybar/scripts/net_man.sh|77|34|v|sh
+	numfmt 
+844fc2ba6d07677241cb10d52ec9415a|file:///home/apiz19/.config/polybar/scripts/net_man.sh|77|34|v|sh
+	--to
+0ed97cba38397058e814f0222414e3d2|file:///home/apiz19/.config/polybar/scripts/net_man.sh|74|1|V|sh
+	rx=$(update /sys/class/net/[ew]*/statistics/rx_bytes)
+	tx=$(update /sys/class/net/[ew]*/statistics/tx_bytes)
+	
+	info=$(printf "D %4sB U %4sB\\n" $rx $tx)
+5e01f76143f7db678be0f58a17a01773|file:///home/apiz19/.config/polybar/scripts/net_man.sh|6|1|V|sh
+	info=$(printf "D %4sB U %4sB\\n" "$rx" "$tx")
+5bc1c9514759ad1d3cfffb55be84abd4|file:///home/apiz19/.config/polybar/scripts/net_man.sh|25|1|V|sh
+	                        description=$(printf "D %dKiB U %dKiB" "$rx" "$tx")
+499c18095f7946734b68352e2ea50a94|file:///home/apiz19/.config/polybar/scripts/net_man.sh|68|1|V|sh
+	update() {
+	    sum=0
+	    for arg; do
+	        read -r i < "$arg"
+	        sum=$(( sum + i ))
+	    done
+	    cache=${XDG_CACHE_HOME:-$HOME/.cache}/${1##*/}
+	    [ -f "$cache" ] && read -r old < "$cache" || old=0
+	    printf %d\\n "$sum" > "$cache"
+	    printf %d\\n $(( sum - old ))
+	}
+e2361c42eb44e4ff755309560a10fe49|file:///home/apiz19/.config/polybar/scripts/net_man.sh|39|48|v|sh
+	%{F#f9cc18}$signal%%{F-}
+67daf92c833c41c95db874e18fcb2786|file:///home/apiz19/.config/polybar/scripts/net_man.sh|40|25|v|sh
+	description
+dda36bb33b37bc53149f8ffd02ebb4c4|file:///home/apiz19/.config/polybar/scripts/net_man.sh|66|48|v|sh
+	ription
+a360e91df878b401131555ece75e26cf|file:///home/apiz19/.local/bin/statusbar/nettraf|28|1|v|sh
+	printf "🔻%4sB 🔺%4sB\\n" $(numfmt --to=iec $rx) $(numfmt --to=iec $tx)
+2be58805144ed914aa7e0322b7b26ca0|file:///home/apiz19/.config/polybar/scripts/net_man.sh|37|1|V|sh
+	                        info=$(printf "🔻%4sB 🔺%4sB\\n" $(numfmt --to=iec $rx) $(numfmt --to=iec $tx))
+7c9bc579fb8525f249c6fe7d098006c4|file:///home/apiz19/.config/polybar/scripts/net_man.sh|42|25|V|sh
+	                        info=$(printf "D %4sB 🔺%4sB\\n" $(numfmt --to=iec $rx) $(numfmt --to=iec $tx))
+f335d154aa06ca587156d990071d0c1e|file:///home/apiz19/.config/zsh/.zshrc|26|83|v|zsh
+	taskwarrior 

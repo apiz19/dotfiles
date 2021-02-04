@@ -1,0 +1,7 @@
+# !/bin/sh
+#
+# this script to running my pulseaudio
+
+pulseaudio -k
+pulseaudio -D
+pulseaudio --start

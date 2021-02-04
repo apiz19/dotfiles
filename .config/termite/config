@@ -6,7 +6,8 @@ allow_bold = true
 #cell_width_scale = 1.0
 clickable_url = true
 dynamic_title = true
-font =  FuraCode Nerd Font 10
+font = Iosevka 11
+# padding = 2
 #fullscreen = true
 #icon_name = terminal
 #mouse_autohide = false
@@ -40,10 +41,13 @@ cursor_shape = block
 # "off", "left" or "right"
 #scrollbar = off
 
+
 # ====================================
 [colors]
 
-background= #1d2021
+# 20% background transparency (requires a compositor)
+background = rgba(63, 63, 63, 0.97)
+# background= #1d2021
 foreground= #ebdbb2
 
 color0=  #282828

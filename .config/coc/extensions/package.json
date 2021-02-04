@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "coc-explorer": ">=0.15.5",
+    "coc-floaterm": ">=0.1.5",
+    "coc-json": ">=1.3.3",
+    "coc-pairs": ">=1.2.22",
+    "coc-snippets": ">=2.4.0",
+    "coc-vimtex": ">=1.0.4",
+    "coc-yank": ">=1.2.0"
+  }
+}

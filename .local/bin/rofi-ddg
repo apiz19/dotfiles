@@ -1,0 +1,5 @@
+#! /usr/bin/sh
+
+# exec rofi -modi blocks -show blocks -lines 4 -eh 4 -kb-custom-1 'Control+y' -theme /usr/share/rofi/themes/gruvbox-dark-soft.rasi -blocks-wrap /usr/bin/rofi-search & 
+
+exec rofi -modi blocks -blocks-wrap /usr/bin/rofi-search -show blocks -lines 4 -eh 4 -kb-custom-1 'Control+y' -theme $XDG_CONFIG_HOME/rofi/search.rasi 

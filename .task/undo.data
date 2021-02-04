@@ -1,0 +1,412 @@
+time 1611087693
+new [description:"add list todo today" entry:"1611087693" modified:"1611087693" status:"pending" uuid:"3eba200c-867d-4771-8dc6-fe5b7fdb4455"]
+---
+time 1611088287
+new [description:"read taskwarrior documentation" entry:"1611088287" modified:"1611088287" priority:"H" status:"pending" tags:"kampus" uuid:"851eb1b9-c3d1-4514-893d-fe1dc64e0751"]
+---
+time 1611088750
+new [description:"hub. bu Dewi" entry:"1611088750" modified:"1611088750" priority:"H" status:"pending" tags:"kampus,konsul" uuid:"8d86857e-4825-4a29-98aa-0998ce8ed18a"]
+---
+time 1611114251
+old [description:"read taskwarrior documentation" entry:"1611088287" modified:"1611088287" priority:"H" status:"pending" tags:"kampus" uuid:"851eb1b9-c3d1-4514-893d-fe1dc64e0751"]
+new [description:"read taskwarrior documentation" entry:"1611088287" modified:"1611114251" priority:"H" start:"1611114251" status:"pending" tags:"kampus" uuid:"851eb1b9-c3d1-4514-893d-fe1dc64e0751"]
+---
+time 1611117331
+old [description:"read taskwarrior documentation" entry:"1611088287" modified:"1611114251" priority:"H" start:"1611114251" status:"pending" tags:"kampus" uuid:"851eb1b9-c3d1-4514-893d-fe1dc64e0751"]
+new [description:"read taskwarrior documentation" end:"1611117331" entry:"1611088287" modified:"1611117331" priority:"H" status:"completed" tags:"kampus" uuid:"851eb1b9-c3d1-4514-893d-fe1dc64e0751"]
+---
+time 1611118741
+new [description:"git config multi accounts @github" entry:"1611118741" modified:"1611118741" status:"pending" uuid:"4eb42a8e-edb9-47d9-a692-446a0ddeee1d"]
+---
+time 1611121107
+new [description:"via Zoom 4:30PM" entry:"1611121107" modified:"1611121107" priority:"H" status:"pending" tags:"konsul" uuid:"4474034e-960d-429b-8f60-6e7907618dcb"]
+---
+time 1611121119
+old [description:"hub. bu Dewi" entry:"1611088750" modified:"1611088750" priority:"H" status:"pending" tags:"kampus,konsul" uuid:"8d86857e-4825-4a29-98aa-0998ce8ed18a"]
+new [description:"hub. bu Dewi" end:"1611121119" entry:"1611088750" modified:"1611121119" priority:"H" status:"completed" tags:"kampus,konsul" uuid:"8d86857e-4825-4a29-98aa-0998ce8ed18a"]
+---
+time 1611127301
+new [description:"baca jurnal terkait kanopi" entry:"1611127301" modified:"1611127301" priority:"H" status:"pending" tags:"konsul" uuid:"89bc0d02-5bcf-4237-88c8-3b6c2ef235bc"]
+---
+time 1611127530
+old [description:"baca jurnal terkait kanopi" entry:"1611127301" modified:"1611127301" priority:"H" status:"pending" tags:"konsul" uuid:"89bc0d02-5bcf-4237-88c8-3b6c2ef235bc"]
+new [description:"baca jurnal terkait kanopi" entry:"1611127301" modified:"1611127530" priority:"H" start:"1611127530" status:"pending" tags:"konsul" uuid:"89bc0d02-5bcf-4237-88c8-3b6c2ef235bc"]
+---
+time 1611134585
+old [description:"baca jurnal terkait kanopi" entry:"1611127301" modified:"1611127530" priority:"H" start:"1611127530" status:"pending" tags:"konsul" uuid:"89bc0d02-5bcf-4237-88c8-3b6c2ef235bc"]
+new [description:"baca jurnal terkait kanopi" end:"1611134585" entry:"1611127301" modified:"1611134585" priority:"H" status:"completed" tags:"konsul" uuid:"89bc0d02-5bcf-4237-88c8-3b6c2ef235bc"]
+---
+time 1611135223
+old [description:"via Zoom 4:30PM" entry:"1611121107" modified:"1611121107" priority:"H" status:"pending" tags:"konsul" uuid:"4474034e-960d-429b-8f60-6e7907618dcb"]
+new [description:"via Zoom 4:30PM" entry:"1611121107" modified:"1611135223" priority:"H" start:"1611135223" status:"pending" tags:"konsul" uuid:"4474034e-960d-429b-8f60-6e7907618dcb"]
+---
+time 1611135237
+old [description:"git config multi accounts @github" entry:"1611118741" modified:"1611118741" status:"pending" uuid:"4eb42a8e-edb9-47d9-a692-446a0ddeee1d"]
+new [description:"git config multi accounts @github" end:"1611135237" entry:"1611118741" modified:"1611135237" status:"completed" uuid:"4eb42a8e-edb9-47d9-a692-446a0ddeee1d"]
+---
+time 1611135243
+old [description:"add list todo today" entry:"1611087693" modified:"1611087693" status:"pending" uuid:"3eba200c-867d-4771-8dc6-fe5b7fdb4455"]
+new [description:"add list todo today" end:"1611135243" entry:"1611087693" modified:"1611135243" status:"completed" uuid:"3eba200c-867d-4771-8dc6-fe5b7fdb4455"]
+---
+time 1611136925
+old [description:"via Zoom 4:30PM" entry:"1611121107" modified:"1611135223" priority:"H" start:"1611135223" status:"pending" tags:"konsul" uuid:"4474034e-960d-429b-8f60-6e7907618dcb"]
+new [description:"via Zoom 4:30PM" end:"1611136925" entry:"1611121107" modified:"1611136925" priority:"H" status:"completed" tags:"konsul" uuid:"4474034e-960d-429b-8f60-6e7907618dcb"]
+---
+time 1611137296
+new [description:"test" entry:"1611137296" modified:"1611137296" status:"pending" uuid:"84325bff-506c-4048-9f94-59a25822e76c"]
+---
+time 1611137672
+old [description:"test" entry:"1611137296" modified:"1611137296" status:"pending" uuid:"84325bff-506c-4048-9f94-59a25822e76c"]
+new [description:"test" end:"1611137669" entry:"1611137296" modified:"1611137672" status:"deleted" uuid:"84325bff-506c-4048-9f94-59a25822e76c"]
+---
+time 1611138042
+new [description:"test task Poly" entry:"1611138042" modified:"1611138042" status:"pending" uuid:"40bb2895-bc61-4fec-bc94-155df3bb56bf"]
+---
+time 1611138090
+old [description:"test task Poly" entry:"1611138042" modified:"1611138042" status:"pending" uuid:"40bb2895-bc61-4fec-bc94-155df3bb56bf"]
+new [description:"test task Poly" end:"1611138087" entry:"1611138042" modified:"1611138090" status:"deleted" uuid:"40bb2895-bc61-4fec-bc94-155df3bb56bf"]
+---
+time 1611158653
+new [description:"todo hasil" entry:"1611158653" modified:"1611158653" priority:"H" status:"pending" tags:"konsul" uuid:"1adef1ff-c78d-4792-991e-761226742654"]
+---
+time 1611158715
+old [description:"todo hasil" entry:"1611158653" modified:"1611158653" priority:"H" status:"pending" tags:"konsul" uuid:"1adef1ff-c78d-4792-991e-761226742654"]
+new [description:"todo hasil" due:"1611162000" entry:"1611158653" modified:"1611158715" priority:"H" status:"pending" tags:"konsul" uuid:"1adef1ff-c78d-4792-991e-761226742654"]
+---
+time 1611161289
+old [description:"todo hasil" due:"1611162000" entry:"1611158653" modified:"1611158715" priority:"H" status:"pending" tags:"konsul" uuid:"1adef1ff-c78d-4792-991e-761226742654"]
+new [description:"todo hasil" entry:"1611158653" modified:"1611161289" priority:"H" status:"pending" tags:"konsul" uuid:"1adef1ff-c78d-4792-991e-761226742654"]
+---
+time 1611161335
+old [description:"todo hasil" entry:"1611158653" modified:"1611161289" priority:"H" status:"pending" tags:"konsul" uuid:"1adef1ff-c78d-4792-991e-761226742654"]
+new [description:"todo hasil" due:"1611162000" entry:"1611158653" modified:"1611161335" priority:"H" status:"pending" tags:"konsul" uuid:"1adef1ff-c78d-4792-991e-761226742654"]
+---
+time 1611161348
+old [description:"todo hasil" due:"1611162000" entry:"1611158653" modified:"1611161335" priority:"H" status:"pending" tags:"konsul" uuid:"1adef1ff-c78d-4792-991e-761226742654"]
+new [description:"todo hasil" due:"1611248400" entry:"1611158653" modified:"1611161348" priority:"H" status:"pending" tags:"konsul" uuid:"1adef1ff-c78d-4792-991e-761226742654"]
+---
+time 1611161564
+old [description:"todo hasil" due:"1611248400" entry:"1611158653" modified:"1611161348" priority:"H" status:"pending" tags:"konsul" uuid:"1adef1ff-c78d-4792-991e-761226742654"]
+new [description:"todo hasil" due:"1611248400" entry:"1611158653" modified:"1611161564" priority:"H" status:"pending" tags:"konsul,kampus" uuid:"1adef1ff-c78d-4792-991e-761226742654"]
+---
+time 1611161746
+old [description:"todo hasil" due:"1611248400" entry:"1611158653" modified:"1611161564" priority:"H" status:"pending" tags:"konsul,kampus" uuid:"1adef1ff-c78d-4792-991e-761226742654"]
+new [description:"todo hasil" due:"1611248400" entry:"1611158653" modified:"1611161746" priority:"H" status:"pending" tags:"konsul,kampus,tga" uuid:"1adef1ff-c78d-4792-991e-761226742654"]
+---
+time 1611161766
+old [description:"todo hasil" due:"1611248400" entry:"1611158653" modified:"1611161746" priority:"H" status:"pending" tags:"konsul,kampus,tga" uuid:"1adef1ff-c78d-4792-991e-761226742654"]
+new [description:"todo hasil" due:"1611162000" entry:"1611158653" modified:"1611161766" priority:"H" status:"pending" tags:"konsul,kampus,tga" uuid:"1adef1ff-c78d-4792-991e-761226742654"]
+---
+time 1611161782
+old [description:"todo hasil" due:"1611162000" entry:"1611158653" modified:"1611161766" priority:"H" status:"pending" tags:"konsul,kampus,tga" uuid:"1adef1ff-c78d-4792-991e-761226742654"]
+new [description:"todo hasil" due:"1611248400" entry:"1611158653" modified:"1611161782" priority:"H" status:"pending" tags:"konsul,kampus,tga" uuid:"1adef1ff-c78d-4792-991e-761226742654"]
+---
+time 1611169807
+new [description:"kurasi artikel" due:"1611248400" entry:"1611169807" modified:"1611169807" priority:"H" status:"pending" tags:"kampus,tga" uuid:"87983aed-a36c-480e-9735-de237f997068"]
+---
+time 1611196765
+old [description:"kurasi artikel" due:"1611248400" entry:"1611169807" modified:"1611169807" priority:"H" status:"pending" tags:"kampus,tga" uuid:"87983aed-a36c-480e-9735-de237f997068"]
+new [description:"kurasi artikel" due:"1611248400" end:"1611196765" entry:"1611169807" modified:"1611196765" priority:"H" status:"completed" tags:"kampus,tga" uuid:"87983aed-a36c-480e-9735-de237f997068"]
+---
+time 1611196775
+old [description:"todo hasil" due:"1611248400" entry:"1611158653" modified:"1611161782" priority:"H" status:"pending" tags:"konsul,kampus,tga" uuid:"1adef1ff-c78d-4792-991e-761226742654"]
+new [description:"todo hasil" due:"1611248400" entry:"1611158653" modified:"1611196775" priority:"H" start:"1611196775" status:"pending" tags:"konsul,kampus,tga" uuid:"1adef1ff-c78d-4792-991e-761226742654"]
+---
+time 1611197096
+new [description:"hitung pemakaian total daya setiap modul" entry:"1611197096" modified:"1611197096" status:"pending" tags:"tga,konsul" uuid:"99133374-b267-4c4c-a04d-c080ea356d37"]
+---
+time 1611197699
+new [description:"hitung daya tahan POWERBANK (backup battery)" entry:"1611197699" modified:"1611197699" status:"pending" tags:"tga,konsul" uuid:"97bd99ab-f304-4813-9597-7c88c8aed095"]
+---
+time 1611206507
+new [description:"uji coba di Indrapuri" due:"1613149200" entry:"1611206507" modified:"1611206507" status:"pending" tags:"tga" uuid:"78f22f3b-4c7a-44d0-9730-30b27430b8dc"]
+---
+time 1611206764
+old [description:"uji coba di Indrapuri" due:"1613149200" entry:"1611206507" modified:"1611206507" status:"pending" tags:"tga" uuid:"78f22f3b-4c7a-44d0-9730-30b27430b8dc"]
+new [description:"uji coba di Indrapuri" due:"1612371600" entry:"1611206507" modified:"1611206764" status:"pending" tags:"tga" until:"1613149200" uuid:"78f22f3b-4c7a-44d0-9730-30b27430b8dc"]
+---
+time 1611206865
+new [description:"w\/ zikra terkait perhitugan batterai" entry:"1611206865" modified:"1611206865" status:"pending" tags:"tga,diskusi" uuid:"ef767520-eaa8-4cec-98ac-977dd20d4c61"]
+---
+time 1611206966
+old [description:"w\/ zikra terkait perhitugan batterai" entry:"1611206865" modified:"1611206865" status:"pending" tags:"tga,diskusi" uuid:"ef767520-eaa8-4cec-98ac-977dd20d4c61"]
+new [description:"w\/ zikra terkait perhitugan batterai" due:"1611162000" entry:"1611206865" modified:"1611206966" status:"pending" tags:"tga,diskusi" uuid:"ef767520-eaa8-4cec-98ac-977dd20d4c61"]
+---
+time 1611206975
+old [description:"w\/ zikra terkait perhitugan batterai" due:"1611162000" entry:"1611206865" modified:"1611206966" status:"pending" tags:"tga,diskusi" uuid:"ef767520-eaa8-4cec-98ac-977dd20d4c61"]
+new [description:"w\/ zikra terkait perhitugan batterai" due:"1611162000" entry:"1611206865" modified:"1611206975" priority:"H" status:"pending" tags:"tga,diskusi" uuid:"ef767520-eaa8-4cec-98ac-977dd20d4c61"]
+---
+time 1611207146
+old [description:"w\/ zikra terkait perhitugan batterai" due:"1611162000" entry:"1611206865" modified:"1611206975" priority:"H" status:"pending" tags:"tga,diskusi" uuid:"ef767520-eaa8-4cec-98ac-977dd20d4c61"]
+new [description:"w\/ zikra terkait perhitugan batterai" due:"1611234000" entry:"1611206865" modified:"1611207146" priority:"H" status:"pending" tags:"tga,diskusi" uuid:"ef767520-eaa8-4cec-98ac-977dd20d4c61"]
+---
+time 1611207269
+old [description:"uji coba di Indrapuri" due:"1612371600" entry:"1611206507" modified:"1611206764" status:"pending" tags:"tga" until:"1613149200" uuid:"78f22f3b-4c7a-44d0-9730-30b27430b8dc"]
+new [annotation_1611207196:"FIX: fish eye, geo tagging, battery backup" description:"uji coba di Indrapuri" due:"1612371600" entry:"1611206507" modified:"1611207269" status:"pending" tags:"tga" until:"1613149200" uuid:"78f22f3b-4c7a-44d0-9730-30b27430b8dc"]
+---
+time 1611207385
+new [description:"skala peta topo ke yang lebih kecil" entry:"1611207385" modified:"1611207385" status:"pending" tags:"tga,konsul" until:"1613021785" uuid:"704c0fa8-f0c1-42bf-ba80-b52cbf7eff66"]
+---
+time 1611207440
+old [description:"skala peta topo ke yang lebih kecil" entry:"1611207385" modified:"1611207385" status:"pending" tags:"tga,konsul" until:"1613021785" uuid:"704c0fa8-f0c1-42bf-ba80-b52cbf7eff66"]
+new [description:"skala peta topo ke yang lebih kecil" entry:"1611207385" modified:"1611207440" status:"pending" tags:"tga,konsul" until:"1613194585" uuid:"704c0fa8-f0c1-42bf-ba80-b52cbf7eff66"]
+---
+time 1611207467
+old [description:"todo hasil" due:"1611248400" entry:"1611158653" modified:"1611196775" priority:"H" start:"1611196775" status:"pending" tags:"konsul,kampus,tga" uuid:"1adef1ff-c78d-4792-991e-761226742654"]
+new [description:"todo hasil" due:"1611248400" end:"1611207467" entry:"1611158653" modified:"1611207467" priority:"H" status:"completed" tags:"konsul,kampus,tga" uuid:"1adef1ff-c78d-4792-991e-761226742654"]
+---
+time 1611235674
+old [description:"w\/ zikra terkait perhitugan batterai" due:"1611234000" entry:"1611206865" modified:"1611207146" priority:"H" status:"pending" tags:"tga,diskusi" uuid:"ef767520-eaa8-4cec-98ac-977dd20d4c61"]
+new [description:"w\/ zikra terkait perhitugan batterai" due:"1611234000" end:"1611235674" entry:"1611206865" modified:"1611235674" priority:"H" status:"completed" tags:"tga,diskusi" uuid:"ef767520-eaa8-4cec-98ac-977dd20d4c61"]
+---
+time 1611235847
+old [description:"hitung daya tahan POWERBANK (backup battery)" entry:"1611197699" modified:"1611197699" status:"pending" tags:"tga,konsul" uuid:"97bd99ab-f304-4813-9597-7c88c8aed095"]
+new [description:"w\/ Zikra" due:"1611248400" entry:"1611197699" modified:"1611235847" status:"pending" tags:"tga,konsul,kampus" uuid:"97bd99ab-f304-4813-9597-7c88c8aed095"]
+---
+time 1611237876
+old [description:"w\/ Zikra" due:"1611248400" entry:"1611197699" modified:"1611235847" status:"pending" tags:"tga,konsul,kampus" uuid:"97bd99ab-f304-4813-9597-7c88c8aed095"]
+new [description:"ukur waktu pengunaan batterai w\/ Zikra" due:"1611248400" entry:"1611197699" modified:"1611237876" status:"pending" tags:"tga,konsul,kampus" uuid:"97bd99ab-f304-4813-9597-7c88c8aed095"]
+---
+time 1611237955
+old [description:"ukur waktu pengunaan batterai w\/ Zikra" due:"1611248400" entry:"1611197699" modified:"1611237876" status:"pending" tags:"tga,konsul,kampus" uuid:"97bd99ab-f304-4813-9597-7c88c8aed095"]
+new [annotation_1611237899:"18650, Powerbank" description:"ukur waktu pengunaan batterai w\/ Zikra" due:"1611249180" entry:"1611197699" modified:"1611237955" status:"pending" tags:"tga,konsul,kampus" uuid:"97bd99ab-f304-4813-9597-7c88c8aed095"]
+---
+time 1611240341
+old [annotation_1611237899:"18650, Powerbank" description:"ukur waktu pengunaan batterai w\/ Zikra" due:"1611249180" entry:"1611197699" modified:"1611237955" status:"pending" tags:"tga,konsul,kampus" uuid:"97bd99ab-f304-4813-9597-7c88c8aed095"]
+new [annotation_1611237899:"18650, Powerbank" description:"ukur waktu pengunaan batterai w\/ Zikra" entry:"1611197699" modified:"1611240341" status:"pending" tags:"tga,konsul,kampus" until:"1611249180" uuid:"97bd99ab-f304-4813-9597-7c88c8aed095"]
+---
+time 1611240395
+old [annotation_1611237899:"18650, Powerbank" description:"ukur waktu pengunaan batterai w\/ Zikra" entry:"1611197699" modified:"1611240341" status:"pending" tags:"tga,konsul,kampus" until:"1611249180" uuid:"97bd99ab-f304-4813-9597-7c88c8aed095"]
+new [annotation_1611237899:"18650, Powerbank" description:"ukur waktu pengunaan batterai w\/ Zikra" entry:"1611197699" modified:"1611240395" priority:"H" status:"pending" tags:"tga,konsul,kampus" until:"1611249180" uuid:"97bd99ab-f304-4813-9597-7c88c8aed095"]
+---
+time 1611250373
+old [annotation_1611237899:"18650, Powerbank" description:"ukur waktu pengunaan batterai w\/ Zikra" entry:"1611197699" modified:"1611240395" priority:"H" status:"pending" tags:"tga,konsul,kampus" until:"1611249180" uuid:"97bd99ab-f304-4813-9597-7c88c8aed095"]
+new [annotation_1611237899:"18650, Powerbank" description:"ukur waktu pengunaan batterai w\/ Zikra" end:"1611250373" entry:"1611197699" modified:"1611250373" priority:"H" status:"deleted" tags:"tga,konsul,kampus" until:"1611249180" uuid:"97bd99ab-f304-4813-9597-7c88c8aed095"]
+---
+time 1611250591
+new [description:"hitung penggunaan baterai w" entry:"1611250591" modified:"1611250591" status:"pending" uuid:"d9b33889-7d44-4d41-815a-a850902c8380"]
+---
+time 1611250596
+old [description:"hitung penggunaan baterai w" entry:"1611250591" modified:"1611250591" status:"pending" uuid:"d9b33889-7d44-4d41-815a-a850902c8380"]
+new [description:"hitung penggunaan baterai w" end:"1611250596" entry:"1611250591" modified:"1611250596" status:"completed" uuid:"d9b33889-7d44-4d41-815a-a850902c8380"]
+---
+time 1611250621
+new [description:"hitung penggunaan baterai w\/ Zikra" entry:"1611250621" modified:"1611250621" status:"pending" tags:"tga,kampus" uuid:"dbc14752-0885-4f98-960e-4ea07b6dbfb8"]
+---
+time 1611250641
+old [description:"hitung penggunaan baterai w\/ Zikra" entry:"1611250621" modified:"1611250621" status:"pending" tags:"tga,kampus" uuid:"dbc14752-0885-4f98-960e-4ea07b6dbfb8"]
+new [description:"hitung penggunaan baterai w\/ Zikra" entry:"1611250621" modified:"1611250641" status:"pending" tags:"tga,kampus,konsul" uuid:"dbc14752-0885-4f98-960e-4ea07b6dbfb8"]
+---
+time 1611250657
+old [description:"hitung penggunaan baterai w\/ Zikra" entry:"1611250621" modified:"1611250641" status:"pending" tags:"tga,kampus,konsul" uuid:"dbc14752-0885-4f98-960e-4ea07b6dbfb8"]
+new [description:"hitung penggunaan baterai w\/ Zikra" entry:"1611250621" modified:"1611250657" priority:"H" status:"pending" tags:"tga,kampus,konsul" uuid:"dbc14752-0885-4f98-960e-4ea07b6dbfb8"]
+---
+time 1611250699
+old [description:"hitung penggunaan baterai w\/ Zikra" entry:"1611250621" modified:"1611250657" priority:"H" status:"pending" tags:"tga,kampus,konsul" uuid:"dbc14752-0885-4f98-960e-4ea07b6dbfb8"]
+new [description:"hitung penggunaan baterai w\/ Zikra" entry:"1611250621" modified:"1611250699" priority:"H" status:"pending" tags:"tga,kampus,konsul" until:"1611295200" uuid:"dbc14752-0885-4f98-960e-4ea07b6dbfb8"]
+---
+time 1611250723
+old [description:"hitung penggunaan baterai w\/ Zikra" entry:"1611250621" modified:"1611250699" priority:"H" status:"pending" tags:"tga,kampus,konsul" until:"1611295200" uuid:"dbc14752-0885-4f98-960e-4ea07b6dbfb8"]
+new [description:"hitung penggunaan baterai w\/ Zikra" due:"1611248400" entry:"1611250621" modified:"1611250723" priority:"H" status:"pending" tags:"tga,kampus,konsul" until:"1611295200" uuid:"dbc14752-0885-4f98-960e-4ea07b6dbfb8"]
+---
+time 1611250764
+old [description:"hitung penggunaan baterai w\/ Zikra" due:"1611248400" entry:"1611250621" modified:"1611250723" priority:"H" status:"pending" tags:"tga,kampus,konsul" until:"1611295200" uuid:"dbc14752-0885-4f98-960e-4ea07b6dbfb8"]
+new [description:"hitung penggunaan baterai w\/ Zikra" due:"1611334800" entry:"1611250621" modified:"1611250764" priority:"H" status:"pending" tags:"tga,kampus,konsul" until:"1611295200" uuid:"dbc14752-0885-4f98-960e-4ea07b6dbfb8"]
+---
+time 1611253721
+new [description:"diskusi baterai" entry:"1611253721" modified:"1611253721" priority:"H" status:"pending" tags:"diskus" uuid:"f96d5106-db62-4555-bcc5-1470b2fb4fc5"]
+---
+time 1611253782
+old [description:"diskusi baterai" entry:"1611253721" modified:"1611253721" priority:"H" status:"pending" tags:"diskus" uuid:"f96d5106-db62-4555-bcc5-1470b2fb4fc5"]
+new [description:"diskusi baterai" end:"1611253780" entry:"1611253721" modified:"1611253782" priority:"H" status:"deleted" tags:"diskus" uuid:"f96d5106-db62-4555-bcc5-1470b2fb4fc5"]
+---
+time 1611285031
+new [description:"nulis laporan BAB4" entry:"1611285031" modified:"1611285031" status:"pending" tags:"tga" until:"1611421200" uuid:"e1081fec-bb5b-4404-8088-4eaf4625f1cb"]
+---
+time 1611285066
+old [description:"nulis laporan BAB4" entry:"1611285031" modified:"1611285031" status:"pending" tags:"tga" until:"1611421200" uuid:"e1081fec-bb5b-4404-8088-4eaf4625f1cb"]
+new [description:"nulis laporan BAB4" entry:"1611285031" modified:"1611285066" priority:"H" status:"pending" tags:"tga" until:"1611421200" uuid:"e1081fec-bb5b-4404-8088-4eaf4625f1cb"]
+---
+time 1611287440
+old [description:"hitung pemakaian total daya setiap modul" entry:"1611197096" modified:"1611197096" status:"pending" tags:"tga,konsul" uuid:"99133374-b267-4c4c-a04d-c080ea356d37"]
+new [annotation_1611287440:"harus di-seri-kan semuanya, harus bongkar ulang &open;tidak dilakukan&close;" description:"hitung pemakaian total daya setiap modul" entry:"1611197096" modified:"1611287440" status:"pending" tags:"tga,konsul" uuid:"99133374-b267-4c4c-a04d-c080ea356d37"]
+---
+time 1611287460
+old [description:"nulis laporan BAB4" entry:"1611285031" modified:"1611285066" priority:"H" status:"pending" tags:"tga" until:"1611421200" uuid:"e1081fec-bb5b-4404-8088-4eaf4625f1cb"]
+new [description:"nulis laporan BAB4" entry:"1611285031" modified:"1611287460" priority:"H" start:"1611287460" status:"pending" tags:"tga" until:"1611421200" uuid:"e1081fec-bb5b-4404-8088-4eaf4625f1cb"]
+---
+time 1611295201
+old [description:"hitung penggunaan baterai w\/ Zikra" due:"1611334800" entry:"1611250621" modified:"1611250764" priority:"H" status:"pending" tags:"tga,kampus,konsul" until:"1611295200" uuid:"dbc14752-0885-4f98-960e-4ea07b6dbfb8"]
+new [description:"hitung penggunaan baterai w\/ Zikra" due:"1611334800" end:"1611295201" entry:"1611250621" modified:"1611295201" priority:"H" status:"deleted" tags:"tga,kampus,konsul" until:"1611295200" uuid:"dbc14752-0885-4f98-960e-4ea07b6dbfb8"]
+---
+time 1611300396
+old [description:"nulis laporan BAB4" entry:"1611285031" modified:"1611287460" priority:"H" start:"1611287460" status:"pending" tags:"tga" until:"1611421200" uuid:"e1081fec-bb5b-4404-8088-4eaf4625f1cb"]
+new [description:"nulis laporan BAB4" entry:"1611285031" modified:"1611300396" priority:"H" status:"pending" tags:"tga" until:"1611421200" uuid:"e1081fec-bb5b-4404-8088-4eaf4625f1cb"]
+---
+time 1611336744
+old [description:"nulis laporan BAB4" entry:"1611285031" modified:"1611300396" priority:"H" status:"pending" tags:"tga" until:"1611421200" uuid:"e1081fec-bb5b-4404-8088-4eaf4625f1cb"]
+new [description:"nulis laporan BAB4" entry:"1611285031" modified:"1611336744" priority:"H" start:"1611336744" status:"pending" tags:"tga" until:"1611421200" uuid:"e1081fec-bb5b-4404-8088-4eaf4625f1cb"]
+---
+time 1611336753
+old [description:"nulis laporan BAB4" entry:"1611285031" modified:"1611336744" priority:"H" start:"1611336744" status:"pending" tags:"tga" until:"1611421200" uuid:"e1081fec-bb5b-4404-8088-4eaf4625f1cb"]
+new [description:"nulis laporan BAB4" entry:"1611285031" modified:"1611336753" priority:"H" status:"pending" tags:"tga" until:"1611421200" uuid:"e1081fec-bb5b-4404-8088-4eaf4625f1cb"]
+---
+time 1611336810
+old [annotation_1611287440:"harus di-seri-kan semuanya, harus bongkar ulang &open;tidak dilakukan&close;" description:"hitung pemakaian total daya setiap modul" entry:"1611197096" modified:"1611287440" status:"pending" tags:"tga,konsul" uuid:"99133374-b267-4c4c-a04d-c080ea356d37"]
+new [annotation_1611287440:"harus di-seri-kan semuanya, harus bongkar ulang &open;tidak dilakukan&close;" description:"hitung pemakaian total daya setiap modul" end:"1611336810" entry:"1611197096" modified:"1611336810" status:"completed" tags:"tga,konsul" uuid:"99133374-b267-4c4c-a04d-c080ea356d37"]
+---
+time 1611336964
+old [description:"nulis laporan BAB4" entry:"1611285031" modified:"1611336753" priority:"H" status:"pending" tags:"tga" until:"1611421200" uuid:"e1081fec-bb5b-4404-8088-4eaf4625f1cb"]
+new [description:"nulis laporan BAB4" entry:"1611285031" modified:"1611336964" priority:"H" start:"1611336964" status:"pending" tags:"tga" until:"1611421200" uuid:"e1081fec-bb5b-4404-8088-4eaf4625f1cb"]
+---
+time 1611338090
+old [description:"nulis laporan BAB4" entry:"1611285031" modified:"1611336964" priority:"H" start:"1611336964" status:"pending" tags:"tga" until:"1611421200" uuid:"e1081fec-bb5b-4404-8088-4eaf4625f1cb"]
+new [description:"nulis laporan BAB4" entry:"1611285031" modified:"1611338090" priority:"H" status:"pending" tags:"tga" until:"1611421200" uuid:"e1081fec-bb5b-4404-8088-4eaf4625f1cb"]
+---
+time 1611338110
+old [description:"nulis laporan BAB4" entry:"1611285031" modified:"1611338090" priority:"H" status:"pending" tags:"tga" until:"1611421200" uuid:"e1081fec-bb5b-4404-8088-4eaf4625f1cb"]
+new [description:"nulis laporan BAB4" entry:"1611285031" modified:"1611338110" priority:"H" start:"1611338110" status:"pending" tags:"tga" until:"1611421200" uuid:"e1081fec-bb5b-4404-8088-4eaf4625f1cb"]
+---
+time 1611339758
+old [description:"nulis laporan BAB4" entry:"1611285031" modified:"1611338110" priority:"H" start:"1611338110" status:"pending" tags:"tga" until:"1611421200" uuid:"e1081fec-bb5b-4404-8088-4eaf4625f1cb"]
+new [description:"nulis laporan BAB4" entry:"1611285031" modified:"1611339758" priority:"H" status:"pending" tags:"tga" until:"1611421200" uuid:"e1081fec-bb5b-4404-8088-4eaf4625f1cb"]
+---
+time 1611423427
+old [description:"nulis laporan BAB4" entry:"1611285031" modified:"1611339758" priority:"H" status:"pending" tags:"tga" until:"1611421200" uuid:"e1081fec-bb5b-4404-8088-4eaf4625f1cb"]
+new [description:"nulis laporan BAB4" end:"1611423427" entry:"1611285031" modified:"1611423427" priority:"H" status:"deleted" tags:"tga" until:"1611421200" uuid:"e1081fec-bb5b-4404-8088-4eaf4625f1cb"]
+---
+time 1611423676
+new [description:"selesaikan BAB4" due:"1611507600" entry:"1611423676" modified:"1611423676" status:"pending" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1611423705
+old [description:"selesaikan BAB4" due:"1611507600" entry:"1611423676" modified:"1611423676" status:"pending" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611594000" entry:"1611423676" modified:"1611423705" status:"pending" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1611424642
+old [description:"selesaikan BAB4" due:"1611594000" entry:"1611423676" modified:"1611423705" status:"pending" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4 +1" due:"1611594000" entry:"1611423676" modified:"1611424642" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1611424657
+old [description:"selesaikan BAB4 +1" due:"1611594000" entry:"1611423676" modified:"1611424642" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611594000" entry:"1611423676" modified:"1611424657" status:"pending" tags:"tga,personal" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1611424674
+old [description:"selesaikan BAB4" due:"1611594000" entry:"1611423676" modified:"1611424657" status:"pending" tags:"tga,personal" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611594000" entry:"1611423676" modified:"1611424674" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1611424938
+old [description:"selesaikan BAB4" due:"1611594000" entry:"1611423676" modified:"1611424674" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611594000" entry:"1611423676" modified:"1611424938" project:"tga" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1611425406
+old [description:"selesaikan BAB4" due:"1611594000" entry:"1611423676" modified:"1611424938" project:"tga" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4 Akhir'" due:"1611594000" entry:"1611423676" modified:"1611425406" project:"'Tugas" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1611425424
+old [description:"selesaikan BAB4 Akhir'" due:"1611594000" entry:"1611423676" modified:"1611425406" project:"'Tugas" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611594000" entry:"1611423676" modified:"1611425424" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1611552617
+old [description:"selesaikan BAB4" due:"1611594000" entry:"1611423676" modified:"1611425424" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611594000" entry:"1611423676" modified:"1611552617" project:"Tugas Akhir" start:"1611552617" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1611557010
+old [description:"selesaikan BAB4" due:"1611594000" entry:"1611423676" modified:"1611552617" project:"Tugas Akhir" start:"1611552617" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611594000" entry:"1611423676" modified:"1611557010" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1611557042
+old [description:"selesaikan BAB4" due:"1611594000" entry:"1611423676" modified:"1611557010" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611680400" entry:"1611423676" modified:"1611557042" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1611634910
+old [description:"selesaikan BAB4" due:"1611680400" entry:"1611423676" modified:"1611557042" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611680400" entry:"1611423676" modified:"1611634910" project:"Tugas Akhir" start:"1611634909" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1611653640
+old [description:"selesaikan BAB4" due:"1611680400" entry:"1611423676" modified:"1611634910" project:"Tugas Akhir" start:"1611634909" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611680400" entry:"1611423676" modified:"1611653640" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1611679591
+old [description:"selesaikan BAB4" due:"1611680400" entry:"1611423676" modified:"1611653640" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611853200" entry:"1611423676" modified:"1611679591" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1611679647
+old [annotation_1611207196:"FIX: fish eye, geo tagging, battery backup" description:"uji coba di Indrapuri" due:"1612371600" entry:"1611206507" modified:"1611207269" status:"pending" tags:"tga" until:"1613149200" uuid:"78f22f3b-4c7a-44d0-9730-30b27430b8dc"]
+new [annotation_1611207196:"FIX: fish eye, geo tagging, battery backup" description:"uji coba di Indrapuri Akhir'" due:"1612371600" entry:"1611206507" modified:"1611679647" project:"'Tugas" status:"pending" tags:"tga" until:"1613149200" uuid:"78f22f3b-4c7a-44d0-9730-30b27430b8dc"]
+---
+time 1611679662
+old [annotation_1611207196:"FIX: fish eye, geo tagging, battery backup" description:"uji coba di Indrapuri Akhir'" due:"1612371600" entry:"1611206507" modified:"1611679647" project:"'Tugas" status:"pending" tags:"tga" until:"1613149200" uuid:"78f22f3b-4c7a-44d0-9730-30b27430b8dc"]
+new [annotation_1611207196:"FIX: fish eye, geo tagging, battery backup" description:"uji coba di Indrapuri" due:"1612371600" entry:"1611206507" modified:"1611679662" project:"Tugas Akhir" status:"pending" tags:"tga" until:"1613149200" uuid:"78f22f3b-4c7a-44d0-9730-30b27430b8dc"]
+---
+time 1611721104
+old [description:"selesaikan BAB4" due:"1611853200" entry:"1611423676" modified:"1611679591" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611853200" entry:"1611423676" modified:"1611721104" project:"Tugas Akhir" start:"1611721104" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1611729144
+old [description:"selesaikan BAB4" due:"1611853200" entry:"1611423676" modified:"1611721104" project:"Tugas Akhir" start:"1611721104" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611853200" entry:"1611423676" modified:"1611729144" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1611729159
+old [description:"selesaikan BAB4" due:"1611853200" entry:"1611423676" modified:"1611729144" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611853200" entry:"1611423676" modified:"1611729159" project:"Tugas Akhir" start:"1611729159" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1611729170
+old [description:"selesaikan BAB4" due:"1611853200" entry:"1611423676" modified:"1611729159" project:"Tugas Akhir" start:"1611729159" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611853200" entry:"1611423676" modified:"1611729170" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1611840917
+old [description:"selesaikan BAB4" due:"1611853200" entry:"1611423676" modified:"1611729170" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1611840917" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1612158347
+old [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1611840917" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612158347" project:"Tugas Akhir" start:"1612158346" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1612167415
+old [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612158347" project:"Tugas Akhir" start:"1612158346" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612167415" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1612326248
+old [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612167415" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612326248" project:"Tugas Akhir" start:"1612326248" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1612336677
+old [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612326248" project:"Tugas Akhir" start:"1612326248" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612336677" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1612336679
+old [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612336677" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612336679" project:"Tugas Akhir" start:"1612336679" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1612336680
+old [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612336679" project:"Tugas Akhir" start:"1612336679" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612336680" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1612336681
+old [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612336680" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612336681" project:"Tugas Akhir" start:"1612336680" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1612336681
+old [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612336681" project:"Tugas Akhir" start:"1612336680" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612336681" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1612336682
+old [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612336681" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612336682" project:"Tugas Akhir" start:"1612336682" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1612336683
+old [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612336682" project:"Tugas Akhir" start:"1612336682" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612336683" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1612336684
+old [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612336683" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612336684" project:"Tugas Akhir" start:"1612336684" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1612336684
+old [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612336684" project:"Tugas Akhir" start:"1612336684" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612336684" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---
+time 1612336687
+old [description:"selesaikan BAB4" due:"1611939600" entry:"1611423676" modified:"1612336684" project:"Tugas Akhir" status:"pending" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+new [description:"selesaikan BAB4" due:"1611939600" end:"1612336687" entry:"1611423676" modified:"1612336687" project:"Tugas Akhir" status:"completed" tags:"tga" uuid:"4e808e45-4ecd-4073-8de2-ee981f88a7af"]
+---

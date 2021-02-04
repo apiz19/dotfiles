@@ -1,0 +1,15 @@
+pkgbase = texlive-local-tocbibind
+	pkgdesc = TeX Live - local installation of CTAN package tocbibind
+	pkgver = 20085
+	pkgrel = 1
+	url = http://tug.org/texlive/
+	arch = any
+	groups = texlive-local
+	license = GPL
+	depends = texlive-core
+	conflicts = texlive-latexextra>=2020.20085
+	source = http://mirror.ctan.org/systems/texlive/tlnet/archive/tocbibind.tar.xz
+	sha512sums = f373d6c98730e60d06790d1a219df26e60bbddd2aaffc3aefc5877ae6b2c10c1a08e21dfef82cc591e1c6f7c014e0843ae30be948b7eb55321dc94cfb7b16aa9
+
+pkgname = texlive-local-tocbibind
+

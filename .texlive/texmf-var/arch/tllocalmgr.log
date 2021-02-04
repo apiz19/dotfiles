@@ -1,0 +1,657 @@
+
+
+*** 2020 11 27 12:28:4 ***
+* Retrieving new TeXLive database from CTAN...
+	http://mirror.ctan.org/systems/texlive/tlnet/tlpkg/texlive.tlpdb.xz
+
+*** 2020 11 27 12:30:16 ***
+* List of updated or new packages for each collection:
+ - texlive-core :
+	albatross is new (as of rev 57103)
+	amsmath has been updated (53640 => 56514)
+	annee-scolaire has been updated (54675 => 55988)
+	asymptote has been updated (54567 => 56991)
+	autoaligne has been updated (49092 => 56966)
+	babel has been updated (55152 => 57153)
+	babel-albanian has been updated (30254 => 57005)
+	babel-dutch has been updated (30263 => 56827)
+	babel-french has been updated (54787 => 56607)
+	babel-german has been updated (49391 => 55989)
+	babelbib has been updated (50354 => 56797)
+	beamer has been updated (55046 => 57140)
+	bibtex has been updated (54070 => 56291)
+	bookmark has been updated (53026 => 56885)
+	breqn has been updated (54801 => 56422)
+	caption has been updated (55117 => 56771)
+	carlisle has been updated (47876 => 56753)
+	chinese-jfm is new (as of rev 57227)
+	cjk-gs-integrate has been updated (54155 => 57081)
+	cloze is new (as of rev 55763)
+	context-filter has been updated (54912 => 55718)
+	context-letter has been updated (53499 => 56073)
+	context-vim has been updated (55204 => 56356)
+	crop has been updated (55385 => 55424)
+	cslatex has been updated (54276 => 56640)
+	cweb has been updated (55372 => 55757)
+	de-macro has been updated (26355 => 55766)
+	dviasm has been updated (52941 => 56373)
+	dvipdfmx has been updated (52851 => 56557)
+	dvips has been updated (54279 => 56291)
+	ekdosis is new (as of rev 56856)
+	emoji has been updated (54362 => 55678)
+	eso-pic has been updated (47694 => 56658)
+	etex has been updated (37057 => 56291)
+	etoolbox has been updated (52153 => 56554)
+	everyshi is new (as of rev 57001)
+	expkv has been updated (54758 => 56634)
+	expkv-cs has been updated (54939 => 56693)
+	expkv-def has been updated (54994 => 56643)
+	expkv-opt is new (as of rev 56633)
+	filehook has been updated (53655 => 56479)
+	firstaid is new (as of rev 57154)
+	fltpoint has been updated (15878 => 56594)
+	fontools has been updated (55297 => 57171)
+	fontspec has been updated (53860 => 56594)
+	frenchmath has been updated (51192 => 56847)
+	frpseudocode is new (as of rev 56088)
+	gobble has been updated (49608 => 56291)
+	graphics has been updated (53640 => 56514)
+	graphics-def has been updated (54522 => 56555)
+	graphics-pln has been updated (54080 => 56823)
+	hausarbeit-jura has been updated (50762 => 56070)
+	hopatch is new (as of rev 56106)
+	hulipsum has been updated (46803 => 56848)
+	hyphen-arabic is new (as of rev 54568)
+	hyphen-farsi is new (as of rev 54568)
+	iftex has been updated (54159 => 56594)
+	iftex has been updated (54159 => 56594)
+	koma-script has been updated (54825 => 56454)
+	kpathsea has been updated (54764 => 56525)
+	kvoptions has been updated (52985 => 56609)
+	l3backend has been updated (55406 => 56424)
+	l3experimental has been updated (55406 => 56785)
+	l3kernel has been updated (55406 => 57088)
+	l3packages has been updated (55157 => 56785)
+	latex has been updated (53958 => 56775)
+	latexbug has been updated (52414 => 56434)
+	latexdiff has been updated (55328 => 55540)
+	latexindent has been updated (55047 => 56869)
+	latexmk has been updated (54786 => 57213)
+	latexmp has been updated (15878 => 55643)
+	light-latex-make is new (as of rev 56513)
+	localloc is new (as of rev 56496)
+	ltxcmds has been updated (53165 => 56421)
+	ltximg has been updated (51951 => 56166)
+	lua-alt-getopt has been updated (29349 => 56414)
+	lua-uca has been updated (55349 => 56414)
+	lua-ul has been updated (54690 => 55831)
+	luahyphenrules has been updated (42670 => 56200)
+	lualatex-math has been updated (52663 => 56541)
+	lualibs has been updated (54994 => 56259)
+	luaotfload has been updated (55064 => 56269)
+	luaprogtable is new (as of rev 56113)
+	luatex has been updated (54610 => 56291)
+	luatexko has been updated (54438 => 55969)
+	luaxml has been updated (52137 => 57183)
+	lwarp has been updated (55405 => 57217)
+	macros2e has been updated (46026 => 56291)
+	make4ht has been updated (54080 => 56291)
+	mcf2graph has been updated (53550 => 57116)
+	memoir has been updated (55388 => 56572)
+	metafont has been updated (54276 => 56291)
+	metapost has been updated (54070 => 56291)
+	mf2pt1 has been updated (33802 => 57018)
+	mfware has been updated (54994 => 56291)
+	microtype has been updated (52853 => 57096)
+	modes has been updated (53604 => 56303)
+	ms has been updated (51784 => 57002)
+	na-position has been updated (48071 => 55559)
+	namedef is new (as of rev 55881)
+	nodetree has been updated (55347 => 56742)
+	ntgclass has been updated (53882 => 56959)
+	oberdiek has been updated (53283 => 56291)
+	optex has been updated (55231 => 57197)
+	pagesel is new (as of rev 56105)
+	parskip has been updated (55212 => 55560)
+	pdfcrop has been updated (29348 => 55435)
+	pdfjam has been updated (52857 => 56991)
+	pdftex has been updated (54227 => 56291)
+	pdftexcmds has been updated (55416 => 55777)
+	pdfxup has been updated (53345 => 57166)
+	pgf has been updated (55342 => 57224)
+	pkfix-helper has been updated (54855 => 56061)
+	polyglossia has been updated (54758 => 57098)
+	pwebmac has been updated (55379 => 56383)
+	realscripts has been updated (39706 => 56594)
+	rojud is new (as of rev 56895)
+	schemata has been updated (54326 => 57057)
+	soul is new (as of rev 56495)
+	spix is new (as of rev 55933)
+	stricttex is new (as of rev 56320)
+	sty2dtx has been updated (29743 => 56291)
+	tex4ebook has been updated (52616 => 56878)
+	tex4ht has been updated (55408 => 57228)
+	texdef has been updated (47420 => 56466)
+	texdoc has been updated (53859 => 56358)
+	texinfo has been updated (55267 => 56777)
+	texlive-scripts has been updated (55396 => 57222)
+	texlive.infra has been updated (55382 => 57132)
+	texliveonfly has been updated (26313 => 55777)
+	texplate has been updated (53637 => 56083)
+	tlcockpit is new (as of rev 54857)
+	tlshell has been updated (55357 => 56461)
+	tools has been updated (53640 => 56514)
+	tracklang has been updated (52991 => 55707)
+	translator has been updated (54512 => 56052)
+	unicode-data has been updated (54758 => 56768)
+	unicode-math has been updated (53609 => 56594)
+	verifica has been updated (53722 => 56625)
+	xecjk has been updated (54961 => 56711)
+	xetex has been updated (54276 => 57186)
+	xetex-itrans has been updated (35088 => 55475)
+	xindex has been updated (55401 => 56295)
+	xkeyval has been updated (35741 => 57006)
+	xlop has been updated (54936 => 56910)
+	xltxtra has been updated (49555 => 56594)
+	zztex is new (as of rev 55862)
+ - texlive-fontsextra :
+	academicons has been updated (54512 => 56119)
+	algolrevived has been updated (55265 => 56864)
+	almendra has been updated (54512 => 56035)
+	arvo is new (as of rev 57213)
+	baskervaldx has been updated (54512 => 57080)
+	baskervillef has been updated (54512 => 55475)
+	bitter has been updated (54512 => 56026)
+	cabin has been updated (52475 => 55907)
+	charissil is new (as of rev 55920)
+	cmathbb is new (as of rev 56414)
+	cochineal has been updated (55265 => 57176)
+	courierten is new (as of rev 55436)
+	doulossil is new (as of rev 56407)
+	ektype-tanka is new (as of rev 56070)
+	erewhon has been updated (55345 => 55705)
+	erewhon-math has been updated (55287 => 56703)
+	etbb has been updated (55160 => 56390)
+	fbb has been updated (54512 => 55728)
+	feyn has been updated (45679 => 55777)
+	fira has been updated (54512 => 55437)
+	firamath has been updated (53388 => 56672)
+	fonts-churchslavonic has been updated (43121 => 56350)
+	forum has been updated (54512 => 56025)
+	frimurer is new (as of rev 56704)
+	ibarra is new (as of rev 55820)
+	inter is new (as of rev 57213)
+	josefin is new (as of rev 57152)
+	kpfonts has been updated (48470 => 55643)
+	kpfonts-otf has been updated (55407 => 56965)
+	libertinus-fonts has been updated (54197 => 56656)
+	libertinus-otf has been updated (54872 => 56649)
+	libertinus-type1 has been updated (54512 => 57159)
+	libertinust1math has been updated (55346 => 56861)
+	librebaskerville has been updated (31741 => 56018)
+	librecaslon has been updated (54512 => 56003)
+	lobster2 has been updated (32617 => 56019)
+	logix has been updated (55077 => 56414)
+	marcellus has been updated (54512 => 56016)
+	merriweather has been updated (52380 => 56365)
+	newcomputermodern has been updated (55374 => 57170)
+	newpx has been updated (55404 => 56845)
+	newtx has been updated (55202 => 57192)
+	newtxsf has been updated (55014 => 56527)
+	notomath is new (as of rev 57177)
+	oldstandard has been updated (55359 => 57213)
+	overlock has been updated (52408 => 56079)
+	phonetic has been updated (21871 => 56468)
+	playfair has been updated (54512 => 56005)
+	plimsoll is new (as of rev 56605)
+	poiretone has been updated (54512 => 56070)
+	quattrocento has been updated (54512 => 56020)
+	scholax has been updated (55400 => 57178)
+	spectral is new (as of rev 56153)
+	step has been updated (53731 => 56690)
+	stepgreek is new (as of rev 57074)
+	stickstoo has been updated (54512 => 57193)
+	twemoji-colr has been updated (54512 => 55675)
+	xcharter has been updated (54512 => 57009)
+	xits has been updated (52046 => 55730)
+* Preparing to make the following packages:
+	babel-indonesian
+
+* Created /home/apiz19/.texlive/texmf-var/arch/builds/babel-indonesian/PKGBUILD
+* Running makepkg -i on /home/apiz19/.texlive/texmf-var/arch/builds/babel-indonesian/PKGBUILD
+* Preparing to make the following packages:
+	enumitem
+
+* Created /home/apiz19/.texlive/texmf-var/arch/builds/enumitem/PKGBUILD
+* Running makepkg -i on /home/apiz19/.texlive/texmf-var/arch/builds/enumitem/PKGBUILD
+* Preparing to make the following packages:
+	lipsum
+
+* Created /home/apiz19/.texlive/texmf-var/arch/builds/lipsum/PKGBUILD
+* Running makepkg -i on /home/apiz19/.texlive/texmf-var/arch/builds/lipsum/PKGBUILD
+* Preparing to make the following packages:
+	changepage
+
+* Created /home/apiz19/.texlive/texmf-var/arch/builds/changepage/PKGBUILD
+* Running makepkg -i on /home/apiz19/.texlive/texmf-var/arch/builds/changepage/PKGBUILD
+* Preparing to make the following packages:
+	multirow
+
+* Created /home/apiz19/.texlive/texmf-var/arch/builds/multirow/PKGBUILD
+* Running makepkg -i on /home/apiz19/.texlive/texmf-var/arch/builds/multirow/PKGBUILD
+* Preparing to make the following packages:
+	titlesec
+
+* Created /home/apiz19/.texlive/texmf-var/arch/builds/titlesec/PKGBUILD
+* Running makepkg -i on /home/apiz19/.texlive/texmf-var/arch/builds/titlesec/PKGBUILD
+
+
+*** 2020 11 27 12:40:31 ***
+* Preparing to make the following packages:
+	abstract
+
+* Created /home/apiz19/.texlive/texmf-var/arch/builds/abstract/PKGBUILD
+* Running makepkg -i on /home/apiz19/.texlive/texmf-var/arch/builds/abstract/PKGBUILD
+* Preparing to make the following packages:
+	tocloft
+
+* Created /home/apiz19/.texlive/texmf-var/arch/builds/tocloft/PKGBUILD
+* Running makepkg -i on /home/apiz19/.texlive/texmf-var/arch/builds/tocloft/PKGBUILD
+* Preparing to make the following packages:
+	tocbibind
+
+* Created /home/apiz19/.texlive/texmf-var/arch/builds/tocbibind/PKGBUILD
+* Running makepkg -i on /home/apiz19/.texlive/texmf-var/arch/builds/tocbibind/PKGBUILD
+* Preparing to make the following packages:
+	emptypage
+
+* Created /home/apiz19/.texlive/texmf-var/arch/builds/emptypage/PKGBUILD
+* Running makepkg -i on /home/apiz19/.texlive/texmf-var/arch/builds/emptypage/PKGBUILD
+* Preparing to make the following packages:
+	xstring
+
+* Created /home/apiz19/.texlive/texmf-var/arch/builds/xstring/PKGBUILD
+* Running makepkg -i on /home/apiz19/.texlive/texmf-var/arch/builds/xstring/PKGBUILD
+* Preparing to make the following packages:
+	nomencl
+
+* Created /home/apiz19/.texlive/texmf-var/arch/builds/nomencl/PKGBUILD
+* Running makepkg -i on /home/apiz19/.texlive/texmf-var/arch/builds/nomencl/PKGBUILD
+
+
+*** 2020 11 27 12:42:57 ***
+* Preparing to make the following packages:
+	todo
+
+* Created /home/apiz19/.texlive/texmf-var/arch/builds/todo/PKGBUILD
+* Running makepkg -i on /home/apiz19/.texlive/texmf-var/arch/builds/todo/PKGBUILD
+* Preparing to make the following packages:
+	pgfplots
+
+* Created /home/apiz19/.texlive/texmf-var/arch/builds/pgfplots/PKGBUILD
+* Running makepkg -i on /home/apiz19/.texlive/texmf-var/arch/builds/pgfplots/PKGBUILD
+
+
+*** 2020 11 27 12:55:33 ***
+* Preparing to make the following packages:
+	wrapfig
+
+* Created /home/apiz19/.texlive/texmf-var/arch/builds/wrapfig/PKGBUILD
+* Running makepkg -i on /home/apiz19/.texlive/texmf-var/arch/builds/wrapfig/PKGBUILD
+* Preparing to make the following packages:
+	apacite
+
+* Created /home/apiz19/.texlive/texmf-var/arch/builds/apacite/PKGBUILD
+* Running makepkg -i on /home/apiz19/.texlive/texmf-var/arch/builds/apacite/PKGBUILD
+
+
+*** 2021 0 5 0:1:24 ***
+* Retrieving new TeXLive database from CTAN...
+	http://mirror.ctan.org/systems/texlive/tlnet/tlpkg/texlive.tlpdb.xz* List of updated or new packages for each collection:
+ - texlive-core :
+	albatross is new (as of rev 57103)
+	babel has been updated (56784 => 57153)
+	beamer has been updated (55908 => 57140)
+	chinese-jfm is new (as of rev 57227)
+	cjk-gs-integrate has been updated (54155 => 57081)
+	cslatex has been updated (56640 => 57242)
+	expkv has been updated (56634 => 57247)
+	expkv-def has been updated (56643 => 57246)
+	firstaid has been updated (56812 => 57154)
+	fontools has been updated (55997 => 57171)
+	hyphen-arabic is new (as of rev 54568)
+	hyphen-farsi is new (as of rev 54568)
+	l3kernel has been updated (57066 => 57088)
+	latex has been updated (56775 => 57276)
+	latexbug has been updated (56434 => 57299)
+	latexmk has been updated (56991 => 57213)
+	lualibs has been updated (56259 => 57277)
+	luamplib has been updated (53904 => 57266)
+	luaotfload has been updated (56269 => 57274)
+	luaxml has been updated (55891 => 57183)
+	lwarp has been updated (57032 => 57217)
+	mcf2graph has been updated (56846 => 57116)
+	metapost has been updated (56291 => 57271)
+	microtype has been updated (52853 => 57096)
+	optex has been updated (56960 => 57197)
+	pdfxup has been updated (56736 => 57166)
+	pgf has been updated (57043 => 57240)
+	polyglossia has been updated (56676 => 57098)
+	tex4ht has been updated (57059 => 57302)
+	texlive-scripts has been updated (57052 => 57279)
+	texlive.infra has been updated (56587 => 57132)
+	tlcockpit is new (as of rev 54857)
+	uninormalize is new (as of rev 57257)
+	xetex has been updated (56699 => 57186)
+ - texlive-fontsextra :
+	archivo is new (as of rev 57283)
+	arvo is new (as of rev 57213)
+	baskervaldx has been updated (56894 => 57080)
+	cochineal has been updated (56418 => 57176)
+	inter is new (as of rev 57213)
+	josefin has been updated (56311 => 57152)
+	libertinus-type1 has been updated (56160 => 57159)
+	newcomputermodern has been updated (56419 => 57170)
+	newtx has been updated (56928 => 57192)
+	notomath has been updated (56050 => 57177)
+	oldstandard has been updated (55359 => 57213)
+	oswald is new (as of rev 57253)
+	scholax has been updated (57042 => 57178)
+	spectral has been updated (56153 => 57296)
+	step has been updated (56690 => 57297)
+	stepgreek is new (as of rev 57074)
+	stickstoo has been updated (54512 => 57193)
+ - locally installed packages :
+	nomencl has been updated (54080 => 57263)
+* List of updated or new packages for each collection:
+ - texlive-core :
+	albatross is new (as of rev 57103)
+	babel has been updated (56784 => 57153)
+	beamer has been updated (55908 => 57140)
+	chinese-jfm is new (as of rev 57227)
+	cjk-gs-integrate has been updated (54155 => 57081)
+	cslatex has been updated (56640 => 57242)
+	expkv has been updated (56634 => 57247)
+	expkv-def has been updated (56643 => 57246)
+	firstaid has been updated (56812 => 57154)
+	fontools has been updated (55997 => 57171)
+	hyphen-arabic is new (as of rev 54568)
+	hyphen-farsi is new (as of rev 54568)
+	l3kernel has been updated (57066 => 57088)
+	latex has been updated (56775 => 57276)
+	latexbug has been updated (56434 => 57299)
+	latexmk has been updated (56991 => 57213)
+	lualibs has been updated (56259 => 57277)
+	luamplib has been updated (53904 => 57266)
+	luaotfload has been updated (56269 => 57274)
+	luaxml has been updated (55891 => 57183)
+	lwarp has been updated (57032 => 57217)
+	mcf2graph has been updated (56846 => 57116)
+	metapost has been updated (56291 => 57271)
+	microtype has been updated (52853 => 57096)
+	optex has been updated (56960 => 57197)
+	pdfxup has been updated (56736 => 57166)
+	pgf has been updated (57043 => 57240)
+	polyglossia has been updated (56676 => 57098)
+	tex4ht has been updated (57059 => 57302)
+	texlive-scripts has been updated (57052 => 57279)
+	texlive.infra has been updated (56587 => 57132)
+	tlcockpit is new (as of rev 54857)
+	uninormalize is new (as of rev 57257)
+	xetex has been updated (56699 => 57186)
+ - texlive-fontsextra :
+	archivo is new (as of rev 57283)
+	arvo is new (as of rev 57213)
+	baskervaldx has been updated (56894 => 57080)
+	cochineal has been updated (56418 => 57176)
+	inter is new (as of rev 57213)
+	josefin has been updated (56311 => 57152)
+	libertinus-type1 has been updated (56160 => 57159)
+	newcomputermodern has been updated (56419 => 57170)
+	newtx has been updated (56928 => 57192)
+	notomath has been updated (56050 => 57177)
+	oldstandard has been updated (55359 => 57213)
+	oswald is new (as of rev 57253)
+	scholax has been updated (57042 => 57178)
+	spectral has been updated (56153 => 57296)
+	step has been updated (56690 => 57297)
+	stepgreek is new (as of rev 57074)
+	stickstoo has been updated (54512 => 57193)
+ - locally installed packages :
+	nomencl has been updated (54080 => 57263)
+* Preparing to make the following packages:
+	IEEEtran
+
+* Created /home/apiz19/.texlive/texmf-var/arch/builds/IEEEtran/PKGBUILD
+* Running makepkg -i on /home/apiz19/.texlive/texmf-var/arch/builds/IEEEtran/PKGBUILD
+
+
+*** 2021 0 7 11:39:51 ***
+* Retrieving new TeXLive database from CTAN...
+	http://mirror.ctan.org/systems/texlive/tlnet/tlpkg/texlive.tlpdb.xz* Preparing to make the following packages:
+	biblatex
+
+* Created /home/apiz19/.texlive/texmf-var/arch/builds/biblatex/PKGBUILD
+* Running makepkg -i on /home/apiz19/.texlive/texmf-var/arch/builds/biblatex/PKGBUILD
+
+
+*** 2021 0 11 16:4:43 ***
+* Retrieving new TeXLive database from CTAN...
+	http://mirror.ctan.org/systems/texlive/tlnet/tlpkg/texlive.tlpdb.xz* List of updated or new packages for each collection:
+ - texlive-bibtexextra :
+	archaeologie has been updated (56075 => 57090)
+	biber has been updated (56144 => 57273)
+	biblatex-ext has been updated (56150 => 57287)
+	biblatex-ieee has been updated (56222 => 57256)
+	biblatex-nature has been updated (48940 => 57262)
+	biblatex-swiss-legal has been updated (56991 => 57349)
+	bibtexperllibs has been updated (54512 => 57137)
+	gbt7714 has been updated (55482 => 57157)
+ - texlive-core :
+	albatross is new (as of rev 57103)
+	awesomebox has been updated (51776 => 57349)
+	babel has been updated (56784 => 57153)
+	babelbib has been updated (56797 => 57349)
+	beamer has been updated (55908 => 57140)
+	chickenize has been updated (45083 => 57325)
+	chinese-jfm is new (as of rev 57227)
+	cjk-gs-integrate has been updated (54155 => 57081)
+	cslatex has been updated (56640 => 57318)
+	csplain has been updated (54699 => 57318)
+	de-macro has been updated (55766 => 57349)
+	expkv has been updated (56634 => 57247)
+	expkv-def has been updated (56643 => 57246)
+	fancyhdr has been updated (49886 => 57327)
+	firstaid has been updated (56812 => 57154)
+	fontools has been updated (55997 => 57171)
+	hyphen-arabic is new (as of rev 54568)
+	hyphen-farsi is new (as of rev 54568)
+	l3kernel has been updated (57066 => 57088)
+	latex has been updated (56775 => 57354)
+	latexbug has been updated (56434 => 57299)
+	latexmk has been updated (56991 => 57213)
+	lua-visual-debug has been updated (49634 => 57349)
+	lualibs has been updated (56259 => 57277)
+	luamplib has been updated (53904 => 57266)
+	luaotfload has been updated (56269 => 57274)
+	luaxml has been updated (55891 => 57183)
+	lwarp has been updated (57032 => 57217)
+	mcf2graph has been updated (56846 => 57310)
+	metapost has been updated (56291 => 57271)
+	microtype has been updated (52853 => 57096)
+	mptopdf has been updated (54276 => 57347)
+	optex has been updated (56960 => 57197)
+	pdfxup has been updated (56736 => 57166)
+	pgf has been updated (57043 => 57240)
+	polyglossia has been updated (56676 => 57098)
+	tex4ht has been updated (57059 => 57348)
+	texlive-scripts has been updated (57052 => 57344)
+	texlive.infra has been updated (56587 => 57132)
+	tlcockpit is new (as of rev 54857)
+	uninormalize is new (as of rev 57257)
+	xetex has been updated (56699 => 57186)
+ - texlive-fontsextra :
+	archivo is new (as of rev 57283)
+	arvo is new (as of rev 57213)
+	baskervaldx has been updated (56894 => 57080)
+	cochineal has been updated (56418 => 57176)
+	inter is new (as of rev 57213)
+	josefin has been updated (56311 => 57152)
+	libertinus-type1 has been updated (56160 => 57159)
+	newcomputermodern has been updated (56419 => 57309)
+	newtx has been updated (56928 => 57192)
+	notomath has been updated (56050 => 57177)
+	oldstandard has been updated (55359 => 57213)
+	oswald is new (as of rev 57253)
+	scholax has been updated (57042 => 57178)
+	spectral has been updated (56153 => 57296)
+	step has been updated (56690 => 57307)
+	stepgreek is new (as of rev 57074)
+	stickstoo has been updated (54512 => 57193)
+ - texlive-latexextra :
+	acro has been updated (56982 => 57226)
+	axessibility has been updated (54080 => 57105)
+	bithesis is new (as of rev 57233)
+	bookcover has been updated (56947 => 57326)
+	calxxxx-yyyy has been updated (53290 => 57282)
+	csquotes has been updated (53041 => 57332)
+	draftwatermark has been updated (55719 => 57099)
+	easyfloats is new (as of rev 57204)
+	endfloat has been updated (51003 => 57090)
+	enotez has been updated (54512 => 57130)
+	fontsetup has been updated (56428 => 57141)
+	fontsize has been updated (55265 => 57194)
+	froufrou is new (as of rev 57248)
+	jslectureplanner has been updated (55117 => 57095)
+	latex-bin-dev has been updated (56699 => 57186)
+	menukeys has been updated (56822 => 57172)
+	moodle has been updated (39367 => 57334)
+	multirow has been updated (51278 => 57314)
+	newverbs has been updated (56247 => 57349)
+	nomencl has been updated (54080 => 57263)
+	pbalance has been updated (57067 => 57161)
+	pdfpc has been updated (56940 => 57181)
+	pygmentex has been updated (34996 => 57190)
+	skeldoc is new (as of rev 57315)
+	snotez has been updated (30355 => 57147)
+	stringstrings has been updated (36203 => 57097)
+	swfigure has been updated (56906 => 57213)
+	xurl has been updated (53538 => 57265)
+ - texlive-science :
+	causets has been updated (56872 => 57139)
+	chemformula has been updated (54158 => 57206)
+	chemnum has been updated (52256 => 57084)
+	decision-table has been updated (56164 => 57094)
+	nicematrix has been updated (56991 => 57352)
+	rmathbr has been updated (40415 => 57173)
+	sympytexpackage has been updated (45818 => 57090)
+ - locally installed packages :
+* List of updated or new packages for each collection:
+ - texlive-bibtexextra :
+	archaeologie has been updated (56075 => 57090)
+	biber has been updated (56144 => 57273)
+	biblatex-ext has been updated (56150 => 57287)
+	biblatex-ieee has been updated (56222 => 57256)
+	biblatex-nature has been updated (48940 => 57262)
+	biblatex-swiss-legal has been updated (56991 => 57349)
+	bibtexperllibs has been updated (54512 => 57137)
+	gbt7714 has been updated (55482 => 57157)
+ - texlive-core :
+	albatross is new (as of rev 57103)
+	awesomebox has been updated (51776 => 57349)
+	babel has been updated (56784 => 57153)
+	babelbib has been updated (56797 => 57349)
+	beamer has been updated (55908 => 57140)
+	chickenize has been updated (45083 => 57325)
+	chinese-jfm is new (as of rev 57227)
+	cjk-gs-integrate has been updated (54155 => 57081)
+	cslatex has been updated (56640 => 57318)
+	csplain has been updated (54699 => 57318)
+	de-macro has been updated (55766 => 57349)
+	expkv has been updated (56634 => 57247)
+	expkv-def has been updated (56643 => 57246)
+	fancyhdr has been updated (49886 => 57327)
+	firstaid has been updated (56812 => 57154)
+	fontools has been updated (55997 => 57171)
+	hyphen-arabic is new (as of rev 54568)
+	hyphen-farsi is new (as of rev 54568)
+	l3kernel has been updated (57066 => 57088)
+	latex has been updated (56775 => 57354)
+	latexbug has been updated (56434 => 57299)
+	latexmk has been updated (56991 => 57213)
+	lua-visual-debug has been updated (49634 => 57349)
+	lualibs has been updated (56259 => 57277)
+	luamplib has been updated (53904 => 57266)
+	luaotfload has been updated (56269 => 57274)
+	luaxml has been updated (55891 => 57183)
+	lwarp has been updated (57032 => 57217)
+	mcf2graph has been updated (56846 => 57310)
+	metapost has been updated (56291 => 57271)
+	microtype has been updated (52853 => 57096)
+	mptopdf has been updated (54276 => 57347)
+	optex has been updated (56960 => 57197)
+	pdfxup has been updated (56736 => 57166)
+	pgf has been updated (57043 => 57240)
+	polyglossia has been updated (56676 => 57098)
+	tex4ht has been updated (57059 => 57348)
+	texlive-scripts has been updated (57052 => 57344)
+	texlive.infra has been updated (56587 => 57132)
+	tlcockpit is new (as of rev 54857)
+	uninormalize is new (as of rev 57257)
+	xetex has been updated (56699 => 57186)
+ - texlive-fontsextra :
+	archivo is new (as of rev 57283)
+	arvo is new (as of rev 57213)
+	baskervaldx has been updated (56894 => 57080)
+	cochineal has been updated (56418 => 57176)
+	inter is new (as of rev 57213)
+	josefin has been updated (56311 => 57152)
+	libertinus-type1 has been updated (56160 => 57159)
+	newcomputermodern has been updated (56419 => 57309)
+	newtx has been updated (56928 => 57192)
+	notomath has been updated (56050 => 57177)
+	oldstandard has been updated (55359 => 57213)
+	oswald is new (as of rev 57253)
+	scholax has been updated (57042 => 57178)
+	spectral has been updated (56153 => 57296)
+	step has been updated (56690 => 57307)
+	stepgreek is new (as of rev 57074)
+	stickstoo has been updated (54512 => 57193)
+ - texlive-latexextra :
+	acro has been updated (56982 => 57226)
+	axessibility has been updated (54080 => 57105)
+	bithesis is new (as of rev 57233)
+	bookcover has been updated (56947 => 57326)
+	calxxxx-yyyy has been updated (53290 => 57282)
+	csquotes has been updated (53041 => 57332)
+	draftwatermark has been updated (55719 => 57099)
+	easyfloats is new (as of rev 57204)
+	endfloat has been updated (51003 => 57090)
+	enotez has been updated (54512 => 57130)
+	fontsetup has been updated (56428 => 57141)
+	fontsize has been updated (55265 => 57194)
+	froufrou is new (as of rev 57248)
+	jslectureplanner has been updated (55117 => 57095)
+	latex-bin-dev has been updated (56699 => 57186)
+	menukeys has been updated (56822 => 57172)
+	moodle has been updated (39367 => 57334)
+	multirow has been updated (51278 => 57314)
+	newverbs has been updated (56247 => 57349)
+	nomencl has been updated (54080 => 57263)
+	pbalance has been updated (57067 => 57161)
+	pdfpc has been updated (56940 => 57181)
+	pygmentex has been updated (34996 => 57190)
+	skeldoc is new (as of rev 57315)
+	snotez has been updated (30355 => 57147)
+	stringstrings has been updated (36203 => 57097)
+	swfigure has been updated (56906 => 57213)
+	xurl has been updated (53538 => 57265)
+ - texlive-science :
+	causets has been updated (56872 => 57139)
+	chemformula has been updated (54158 => 57206)
+	chemnum has been updated (52256 => 57084)
+	decision-table has been updated (56164 => 57094)
+	nicematrix has been updated (56991 => 57352)
+	rmathbr has been updated (40415 => 57173)
+	sympytexpackage has been updated (45818 => 57090)
+ - locally installed packages :

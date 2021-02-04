@@ -1,0 +1,15 @@
+pkgbase = texlive-local-lipsum
+	pkgdesc = TeX Live - local installation of CTAN package lipsum
+	pkgver = 49610
+	pkgrel = 1
+	url = http://tug.org/texlive/
+	arch = any
+	groups = texlive-local
+	license = GPL
+	depends = texlive-core
+	conflicts = texlive-latexextra>=2020.49610
+	source = http://mirror.ctan.org/systems/texlive/tlnet/archive/lipsum.tar.xz
+	sha512sums = f5d2454f160162fd1272f5a43e021e1050947b527614c6450a87e1ba8aaa8151dad281cd962142d5ad39cec9f44ac7b313fdcc44da94db0256ab9a2e14b75b0e
+
+pkgname = texlive-local-lipsum
+

@@ -9,10 +9,12 @@ alias \
 	mv="mv -iv" \
 	rm="rm -vI" \
 	mkd="mkdir -pv" \
+  :q="exit"
 	yt="youtube-dl --add-metadata -i" \
 	yta="yt -x -f bestaudio/best" \
 	ffmpeg="ffmpeg -hide_banner" \
 	dots="dotbare"
+
 # Colorize commands when possible.
 alias \
 	ls="ls -hN --color=auto --group-directories-first" \
@@ -23,22 +25,30 @@ alias \
 
 # These common commands are just too long! Abbreviate them.
 alias \
+	amd="DRI_PRIME=1" \
 	ka="killall" \
-	g="git" \
 	trem="transmission-remote" \
 	YT="youtube-viewer" \
 	sdn="sudo shutdown -h now" \
 	f="$FILE" \
 	e="$EDITOR" \
 	v="$EDITOR" \
-	xi="sudo xbps-install" \
-	xr="sudo xbps-remove -R" \
-	xq="xbps-query" \
-	z="zathura"
+	z="zathura" \
+  qrcpr="qrcp receive" \
+  qrcps="qrcp send" \
+  presentationmode-on="xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/presentation-mode -s true; echo 'Presentation Mode ON'; notify-send '[ON] Presentation Mode'" \
+  presentationmode-off="xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/presentation-mode -s false; echo 'Presentation Mode OFF'; notify-send '[OFF] Presentation Mode'" \
+  btop="bashtop" \
+  t="task" 
+  # twui="/usr/bin/taskwarrior-tui" \
+	# g="git" \
+	# xi="sudo xbps-install" \
+	# xr="sudo xbps-remove -R" \
+	# xq="xbps-query" \
+  # ttga="tmux attach-session -ttga"
 
 alias \
 	magit="nvim -c MagitOnly" \
 	ref="shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shortcutrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/zshnameddirrc" \
 	weath="less -S ${XDG_DATA_HOME:-$HOME/.local/share}/weatherreport" \
 	tmux="tmux -f ${XDG_CONFIG_HOME:-$HOME/.config}/tmux/tmux.conf" \
-	fuckoff="shutdown -h now"

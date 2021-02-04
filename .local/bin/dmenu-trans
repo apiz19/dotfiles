@@ -1,0 +1,49 @@
+#!/bin/sh
+
+DMENU="/usr/local/bin/dmenu"
+
+en_id() {
+    st -t 'st+:Translate Shell [EN:ID]' \
+    -g 60x8-0-0 \
+    -e trans -no-view -no-pager -indent 0 -j \
+    -hl en \
+    -shell \
+    -show-original-phonetics n \
+    -show-translation y \
+    -show-translation-phonetics n \
+    -show-prompt-message n \
+    -show-languages n \
+    -show-original-dictionary n \
+    -show-dictionary n \
+    -show-alternatives n \
+    en:id
+}
+
+id_en() {
+    st -t 'st+:Translate Shell [ID:EN]' \
+    -g 60x8-0-0 \
+    -e trans -no-view -no-pager -indent 0 -j \
+    -hl en \
+    -shell \
+    -show-original-phonetics n \
+    -show-translation y \
+    -show-translation-phonetics n \
+    -show-prompt-message n \
+    -show-languages n \
+    -show-original-dictionary n \
+    -show-dictionary n \
+    -show-alternatives n \
+    id:en
+}
+
+vim_translate() {
+    st -t 'st+:Translate Playground' -g 85x20-0-0 -e vim ~/.translate
+}
+
+OPTIONS=$(echo -e "EN-ID\nID-EN\nPlayground" | $DMENU -i -p " Translate:")
+
+case "$OPTIONS" in
+    "EN-ID") en_id;;
+    "ID-EN") id_en;;
+    "Playground") vim_translate;;
+esac

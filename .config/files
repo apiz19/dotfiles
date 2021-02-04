@@ -13,5 +13,5 @@ cfmb	${XDG_CONFIG_HOME:-$HOME/.config}/ncmpcpp/bindings
 cfmc	${XDG_CONFIG_HOME:-$HOME/.config}/ncmpcpp/config
 cfk	${XDG_CONFIG_HOME:-$HOME/.config}/sxhkd/sxhkdrc
 cfi	${XDG_CONFIG_HOME:-$HOME/.config}/i3/config
-cfb	${XDG_CONFIG_HOME:-$HOME/.config}/polybar/config.ini
+cfp	${XDG_CONFIG_HOME:-$HOME/.config}/polybar/config.ini
 cff	${XDG_CONFIG_HOME:-$HOME/.config}/fontconfig/fonts.conf

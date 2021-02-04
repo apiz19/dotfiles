@@ -23,7 +23,7 @@ SPACESHIP_CHAR_SYMBOL="❯ "
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git dnote fd dotbare archlinux zsh-syntax-highlighting colored-man-pages)
+plugins=(git dnote fd dotbare archlinux zsh-syntax-highlighting colored-man-pages timewarrior gitio)
 
 # Load aliases and shortcuts if existent.
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shortcutrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/shortcutrc"
@@ -52,6 +52,11 @@ function p () {
 # fzf config
 [ -f /usr/share/fzf/completion.zsh ] && source /usr/share/fzf/completion.zsh
 [ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
+
+if type rg &> /dev/null; then
+  export FZF_DEFAULT_COMMAND='rg --files'
+ # export FZF_DEFAULT_OPTS='-m --height 50% --border'
+fi
 
 # dotbare completion
 _dotbare_completion_cmd
